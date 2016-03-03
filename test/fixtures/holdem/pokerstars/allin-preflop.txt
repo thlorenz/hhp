@@ -1,0 +1,37 @@
+PokerStars Hand #149652059422: Tournament #1495192630, $0.91+$0.09 USD Hold'em No Limit - Level XI (400/800) - 2016/03/01 1:33:54 ET
+Table '1495192630 3' 9-max Seat #3 is the button
+Seat 1: Fischersito (3475 in chips)
+Seat 3: Irisha2 (24314 in chips)
+Seat 4: DmelloH (33302 in chips)
+Seat 9: held (6409 in chips)
+Fischersito: posts the ante 50
+Irisha2: posts the ante 50
+DmelloH: posts the ante 50
+held: posts the ante 50
+DmelloH: posts small blind 400
+held: posts big blind 800
+*** HOLE CARDS ***
+Dealt to held [Qd Qs]
+Fischersito: raises 2625 to 3425 and is all-in
+Irisha2: folds
+DmelloH: calls 3025
+held: raises 2934 to 6359 and is all-in
+DmelloH: calls 2934
+*** FLOP *** [8h Kd 2s]
+*** TURN *** [8h Kd 2s] [6s]
+*** RIVER *** [8h Kd 2s 6s] [4s]
+*** SHOW DOWN ***
+DmelloH: shows [7h 7d] (a pair of Sevens)
+held: shows [Qd Qs] (a pair of Queens)
+held collected 5868 from side pot
+Fischersito: shows [2c Ad] (a pair of Deuces)
+held collected 10475 from main pot
+Fischersito finished the tournament in 4th place and received $5.11.
+*** SUMMARY ***
+Total pot 16343 Main pot 10475. Side pot 5868. | Rake 0
+Board [8h Kd 2s 6s 4s]
+Seat 1: Fischersito showed [2c Ad] and lost with a pair of Deuces
+Seat 3: Irisha2 (button) folded before Flop (didn't bet)
+Seat 4: DmelloH (small blind) showed [7h 7d] and lost with a pair of Sevens
+Seat 9: held (big blind) showed [Qd Qs] and won (16343) with a pair of Queens
+
