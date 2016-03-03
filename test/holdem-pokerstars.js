@@ -58,7 +58,8 @@ test('\nHoldem.PokerStars: action on all streets', function (t) {
     , donation: 0.91
     , rake: 0.09
     , buyin: 1
-    , pokertype: 'hold\'em no limit'
+    , pokertype: 'holdem'
+    , limit: 'nolimit'
     , level: 'xi '
     , sb: 400
     , bb: 800
@@ -228,7 +229,8 @@ test('\nHoldem.PokerStars: all-in preflop', function (t) {
     , donation: 0.91
     , rake: 0.09
     , buyin: 1
-    , pokertype: 'hold\'em no limit'
+    , pokertype: 'holdem'
+    , limit: 'nolimit'
     , level: 'xi '
     , sb: 400
     , bb: 800
