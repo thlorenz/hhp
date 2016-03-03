@@ -50,16 +50,16 @@ test('\nHoldem.PokerStars: action on all streets', function (t) {
   const res = parse(txt)
 
   spok(t, res.info, topic('info',
-    { room: 'PokerStars'
+    { room: 'pokerstars'
     , handid: '149651992548'
-    , gametype: 'Tournament'
+    , gametype: 'tournament'
     , gameno: '1495192630'
     , currency: '$'
     , donation: 0.91
     , rake: 0.09
     , buyin: 1
-    , pokertype: 'Hold\'em No Limit'
-    , level: 'XI '
+    , pokertype: 'hold\'em no limit'
+    , level: 'xi '
     , sb: 400
     , bb: 800
     , ante: 50
@@ -220,16 +220,16 @@ test('\nHoldem.PokerStars: all-in preflop', function (t) {
   const res = parse(txt)
 
   spok(t, res.info, topic('info',
-    { room: 'PokerStars'
+    { room: 'pokerstars'
     , handid: '149652059422'
-    , gametype: 'Tournament'
+    , gametype: 'tournament'
     , gameno: '1495192630'
     , currency: '$'
     , donation: 0.91
     , rake: 0.09
     , buyin: 1
-    , pokertype: 'Hold\'em No Limit'
-    , level: 'XI '
+    , pokertype: 'hold\'em no limit'
+    , level: 'xi '
     , sb: 400
     , bb: 800
     , ante: 50
