@@ -212,7 +212,6 @@ test('\nHoldem.PokerStars: action on all streets', function (t) {
       , card1: 'Td'
       , card2: 'Tc'
       , metadata: { lineno: 36, raw: 'Seat 1: Fischersito mucked [Td Tc]' } } ]))
-
   t.end()
 })
 
@@ -356,6 +355,10 @@ test('\nHoldem.PokerStars: all-in preflop', function (t) {
       , card2: 'Qs'
       , desc: 'a pair of Queens'
       , metadata: { lineno: 24, raw: 'held: shows [Qd Qs] (a pair of Queens)' } }
+    , { player: 'held'
+      , type: 'collect'
+      , amount: 5868
+      , metadata: { lineno: 25, raw: 'held collected 5868 from side pot' } }
     , { player: 'Fischersito'
       , type: 'show'
       , card1: '2c'
@@ -363,7 +366,11 @@ test('\nHoldem.PokerStars: all-in preflop', function (t) {
       , desc: 'a pair of Deuces'
       , metadata:
         { lineno: 26
-        , raw: 'Fischersito: shows [2c Ad] (a pair of Deuces)' } } ]))
+        , raw: 'Fischersito: shows [2c Ad] (a pair of Deuces)' } }
+    , { player: 'held'
+      , type: 'collect'
+      , amount: 10475
+      , metadata: { lineno: 27, raw: 'held collected 10475 from main pot' } } ]))
 
   t.end()
 })

@@ -23,6 +23,7 @@ function inspect (obj, depth) {
 }
 
 if (!module.parent && typeof window === 'undefined') {
+  // const name = 'allin-preflop'
   const name = 'actiononall'
   const fs = require('fs')
   const path = require('path')
