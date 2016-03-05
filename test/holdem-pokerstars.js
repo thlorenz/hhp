@@ -375,3 +375,25 @@ test('\nHoldem.PokerStars: all-in preflop', function (t) {
   t.end()
 })
 
+test('\nHoldem.PokerStars: call all-in', function (t) {
+  const txt = fs.readFileSync(path.join(holdem_ps, 'call-allin.txt'), 'utf8')
+  const res = parse(txt)
+  // ensure we correctly detect all-in for call and raise which happened on the flop for this hand
+  spok(t, clean(res.flop), topic('flop',
+    [ { player: 'DmelloH'
+      , type: 'bet'
+      , amount: 4598
+      , metadata: { lineno: 19, raw: 'DmelloH: bets 4598' } }
+    , { player: 'held'
+      , type: 'raise'
+      , amount: 14063
+      , raiseTo: 18661
+      , allin: true
+      , metadata: { lineno: 20, raw: 'held: raises 14063 to 18661 and is all-in' } }
+    , { player: 'DmelloH'
+      , type: 'call'
+      , amount: 10454
+      , allin: true
+      , metadata: { lineno: 21, raw: 'DmelloH: calls 10454 and is all-in' } } ]))
+  t.end()
+})

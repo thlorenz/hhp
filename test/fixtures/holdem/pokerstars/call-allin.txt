@@ -1,0 +1,36 @@
+PokerStars Hand #149652017195: Tournament #1495192630, $0.91+$0.09 USD Hold'em No Limit - Level XI (400/800) - 2016/03/01 1:31:14 ET
+Table '1495192630 3' 9-max Seat #1 is the button
+Seat 1: Fischersito (4925 in chips)
+Seat 3: Irisha2 (24764 in chips)
+Seat 4: DmelloH (17101 in chips)
+Seat 9: held (20710 in chips)
+Fischersito: posts the ante 50
+Irisha2: posts the ante 50
+DmelloH: posts the ante 50
+held: posts the ante 50
+Irisha2: posts small blind 400
+DmelloH: posts big blind 800
+*** HOLE CARDS ***
+Dealt to held [Ad Td]
+held: raises 1199 to 1999
+Fischersito: folds
+Irisha2: folds
+DmelloH: calls 1199
+*** FLOP *** [Ks 8h 9c]
+DmelloH: bets 4598
+held: raises 14063 to 18661 and is all-in
+DmelloH: calls 10454 and is all-in
+Uncalled bet (3609) returned to held
+*** TURN *** [Ks 8h 9c] [Jc]
+*** RIVER *** [Ks 8h 9c Jc] [6c]
+*** SHOW DOWN ***
+DmelloH: shows [Qd Kh] (a pair of Kings)
+held: shows [Ad Td] (high card Ace)
+DmelloH collected 34702 from pot
+*** SUMMARY ***
+Total pot 34702 | Rake 0
+Board [Ks 8h 9c Jc 6c]
+Seat 1: Fischersito (button) folded before Flop (didn't bet)
+Seat 3: Irisha2 (small blind) folded before Flop
+Seat 4: DmelloH (big blind) showed [Qd Kh] and won (34702) with a pair of Kings
+Seat 9: held showed [Ad Td] and lost with high card Ace
