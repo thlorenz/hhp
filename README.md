@@ -25,7 +25,56 @@ Parses PokerStars Hold'em hands.
 </div>
 <dl>
 <dt>
-<h4 class="name" id="parse"><span class="type-signature"></span>parse<span class="signature">(txt)</span><span class="type-signature"> &rarr; {object}</span></h4>
+<h4 class="name" id="extractHands"><span class="type-signature"></span>extractHands<span class="signature">(txt)</span><span class="type-signature"> &rarr; {Array.&lt;Array>}</span></h4>
+</dt>
+<dd>
+<div class="description">
+<p>Extracts all hands from a given text file.</p>
+</div>
+<h5>Parameters:</h5>
+<table class="params">
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th class="last">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="name"><code>txt</code></td>
+<td class="type">
+<span class="param-type">string</span>
+</td>
+<td class="description last"><p>the text containing the hands</p></td>
+</tr>
+</tbody>
+</table>
+<dl class="details">
+<dt class="tag-source">Source:</dt>
+<dd class="tag-source"><ul class="dummy">
+<li>
+<a href="https://github.com/thlorenz/hhp/blob/master/hhp.js">hhp.js</a>
+<span>, </span>
+<a href="https://github.com/thlorenz/hhp/blob/master/hhp.js#L37">lineno 37</a>
+</li>
+</ul></dd>
+</dl>
+<h5>Returns:</h5>
+<div class="param-desc">
+<p>an array of hands, each hand split into lines</p>
+</div>
+<dl>
+<dt>
+Type
+</dt>
+<dd>
+<span class="param-type">Array.&lt;Array></span>
+</dd>
+</dl>
+</dd>
+<dt>
+<h4 class="name" id="parse"><span class="type-signature"></span>parse<span class="signature">(input)</span><span class="type-signature"> &rarr; {object}</span></h4>
 </dt>
 <dd>
 <div class="description">
@@ -50,7 +99,7 @@ representation</a>.</p>
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>txt</code></td>
+<td class="name"><code>input</code></td>
 <td class="type">
 <span class="param-type">string</span>
 </td>
