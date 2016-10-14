@@ -1,0 +1,58 @@
+PokerStars Hand #159903637686: Tournament #1696337131, $0.91+$0.09 USD Hold'em No Limit - Level II (15/30) - 2016/10/14 0:04:07 ET
+Table '1696337131 1' 9-max Seat #7 is the button
+Seat 1: vilmondesm (2532 in chips) 
+Seat 2: josyyane (2741 in chips) 
+Seat 3: FelP CasT (1852 in chips) 
+Seat 4: Le0_nAArdo (130 in chips) 
+Seat 5: andreirsousa (1489 in chips) 
+Seat 6: held (1734 in chips) 
+Seat 7: frazioneto (3708 in chips) 
+Seat 8: UP.itAA007 (1492 in chips) is sitting out
+Seat 9: ramonrdg (910 in chips) 
+vilmondesm: posts the ante 4
+josyyane: posts the ante 4
+FelP CasT: posts the ante 4
+Le0_nAArdo: posts the ante 4
+andreirsousa: posts the ante 4
+held: posts the ante 4
+frazioneto: posts the ante 4
+UP.itAA007: posts the ante 4
+ramonrdg: posts the ante 4
+UP.itAA007: posts small blind 15
+ramonrdg: posts big blind 30
+*** HOLE CARDS ***
+Dealt to held [Tc 9h]
+UP.itAA007 has returned
+vilmondesm: calls 30
+josyyane: folds 
+FelP CasT: folds 
+Le0_nAArdo: raises 96 to 126 and is all-in
+andreirsousa: folds 
+held: calls 126
+frazioneto: raises 3578 to 3704 and is all-in
+UP.itAA007: folds 
+ramonrdg: folds 
+vilmondesm: folds 
+held: folds 
+Uncalled bet (3578) returned to frazioneto
+*** FLOP *** [Th Jh Ts]
+*** TURN *** [Th Jh Ts] [8d]
+*** RIVER *** [Th Jh Ts 8d] [7s]
+*** SHOW DOWN ***
+Le0_nAArdo: shows [4c 3c] (a pair of Tens)
+frazioneto: shows [Ks Kh] (two pair, Kings and Tens)
+frazioneto collected 489 from pot
+Le0_nAArdo finished the tournament in 35th place
+*** SUMMARY ***
+Total pot 489 | Rake 0 
+Board [Th Jh Ts 8d 7s]
+Seat 1: vilmondesm folded before Flop
+Seat 2: josyyane folded before Flop (didn't bet)
+Seat 3: FelP CasT folded before Flop (didn't bet)
+Seat 4: Le0_nAArdo showed [4c 3c] and lost with a pair of Tens
+Seat 5: andreirsousa folded before Flop (didn't bet)
+Seat 6: held folded before Flop
+Seat 7: frazioneto (button) showed [Ks Kh] and won (489) with two pair, Kings and Tens
+Seat 8: UP.itAA007 (small blind) folded before Flop
+Seat 9: ramonrdg (big blind) folded before Flop
+

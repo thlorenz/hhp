@@ -5,7 +5,7 @@ const stringUtil = require('./lib/util/string')
 
 const holdem_ps = require('./lib/holdem/pokerstars')
 
-function getLines (txt) {
+function getLines(txt) {
   const trimmed = txt.split('\n').map(stringUtil.trimLine)
   while (trimmed[0] && !trimmed[0].length) trimmed.shift()
   return trimmed
@@ -29,7 +29,7 @@ function getLines (txt) {
  * @param {string} input the textual representation of one poker hand as written to the HandHistory folder
  * @return {object} representation of the given hand to be used as input for other tools like hha
  */
-exports = module.exports = function parse (input) {
+exports = module.exports = function parse(input) {
   const lines = Array.isArray(input) ? input : getLines(input).filter(stringUtil.emptyLine)
   if (holdem_ps.canParse(lines)) return holdem_ps.parse(lines)
 }
@@ -42,7 +42,7 @@ exports = module.exports = function parse (input) {
  * @param {string} txt the text containing the hands
  * @return {Array.<Array>} an array of hands, each hand split into lines
  */
-exports.extractHands = function extractHands (txt) {
+exports.extractHands = function extractHands(txt) {
   const lines = getLines(txt)
   const hands = []
   let hand = []
@@ -67,20 +67,20 @@ exports.extractHands = function extractHands (txt) {
 
 // Test
 
-function inspect (obj, depth) {
+function inspect(obj, depth) {
   console.error(require('util').inspect(obj, false, depth || 5, true))
 }
 
 if (!module.parent && typeof window === 'undefined') {
   // const name = 'allin-preflop'
-  const name = 'actiononall'
+  // const name = 'actiononall'
   const fs = require('fs')
   const path = require('path')
-  const fixtures = path.join(__dirname, 'test', 'fixtures', 'holdem')
+  // const fixtures = path.join(__dirname, 'test', 'fixtures', 'holdem')
   const allhands = fs.readFileSync(path.join(__dirname, 'test', 'fixtures', 'hands.txt'), 'utf8')
   const res = exports.extractHands(allhands)
   inspect(res)
-  /*const hha_fixtures = path.join(__dirname, '..', 'hha', 'test', 'fixtures', 'holdem')
+  /* const hha_fixtures = path.join(__dirname, '..', 'hha', 'test', 'fixtures', 'holdem')
   const txt = fs.readFileSync(path.join(fixtures, 'pokerstars', name + '.txt'), 'utf8')
 
   const res = module.exports(txt)

@@ -12,21 +12,21 @@ const holdem_ps = path.join(fixtures, 'holdem', 'pokerstars')
 
 /* eslint-disable no-unused-vars */
 const ocat = require('./util/ocat')
-function insp (obj, depth) {
+function insp(obj, depth) {
   console.error(require('util').inspect(obj, false, depth || 10, false))
 }
-function inspect (obj, depth) {
+function inspect(obj, depth) {
   console.error(require('util').inspect(obj, false, depth || 5, true))
 }
 /* eslint-ensable no-unused-vars */
 
-function withoutUndefined (o) {
-  function isDefined (k) {
+function withoutUndefined(o) {
+  function isDefined(k) {
     return typeof o[k] !== 'undefined'
       && (k !== 'allin' || o[k])
   }
 
-  function add (acc, k) {
+  function add(acc, k) {
     acc[k] = o[k]
     return acc
   }
@@ -36,16 +36,16 @@ function withoutUndefined (o) {
     .reduce(add, {})
 }
 
-function clean (arr) {
+function clean(arr) {
   return arr.map(withoutUndefined)
 }
 
-function topic (t, arr) {
+function topic(t, arr) {
   arr.$topic = t
   return arr
 }
 
-test('\nHoldem.PokerStars: action on all streets', function (t) {
+test('\nHoldem.PokerStars: action on all streets', function(t) {
   const txt = fs.readFileSync(path.join(holdem_ps, 'actiononall.txt'), 'utf8')
   const res = parse(txt)
 
@@ -215,7 +215,7 @@ test('\nHoldem.PokerStars: action on all streets', function (t) {
   t.end()
 })
 
-test('\nHoldem.PokerStars: all-in preflop', function (t) {
+test('\nHoldem.PokerStars: all-in preflop', function(t) {
   const txt = fs.readFileSync(path.join(holdem_ps, 'allin-preflop.txt'), 'utf8')
   const res = parse(txt)
 
@@ -375,7 +375,7 @@ test('\nHoldem.PokerStars: all-in preflop', function (t) {
   t.end()
 })
 
-test('\nHoldem.PokerStars: call all-in', function (t) {
+test('\nHoldem.PokerStars: call all-in', function(t) {
   const txt = fs.readFileSync(path.join(holdem_ps, 'call-allin.txt'), 'utf8')
   const res = parse(txt)
   // ensure we correctly detect all-in for call and raise which happened on the flop for this hand
@@ -395,5 +395,24 @@ test('\nHoldem.PokerStars: call all-in', function (t) {
       , amount: 10454
       , allin: true
       , metadata: { lineno: 21, raw: 'DmelloH: calls 10454 and is all-in' } } ]))
+  t.end()
+})
+
+test('\nHoldem.PokerStars: player sitting out', function(t) {
+  const txt = fs.readFileSync(path.join(holdem_ps, 'player-sitting-out.txt'), 'utf8')
+  const res = parse(txt)
+  const players = res.seats.map(x => x.player)
+  // UP.itAA007 is sitting out, make sure he his include in the seats
+  spok(t, players, topic('seats.player',
+    [ 'vilmondesm',
+      'josyyane',
+      'FelP CasT',
+      'Le0_nAArdo',
+      'andreirsousa',
+      'held',
+      'frazioneto',
+      'UP.itAA007',
+      'ramonrdg' ]
+  ))
   t.end()
 })
