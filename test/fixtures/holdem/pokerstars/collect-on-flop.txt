@@ -1,0 +1,52 @@
+PokerStars Hand #159581695801: Tournament #1689829479, $3.19+$0.31 USD Hold'em No Limit - Level I (10/20) - 2016/10/06 22:45:37 ET
+Table '1689829479 2' 9-max Seat #1 is the button
+Seat 1: norgas69 (1500 in chips) 
+Seat 2: jaygee1984 (1500 in chips) 
+Seat 3: renniweg (1500 in chips) 
+Seat 4: p_coxinha (1500 in chips) 
+Seat 5: MasterQkiu (1500 in chips) 
+Seat 6: Oterbach (1500 in chips) 
+Seat 7: SilveradoSP (1500 in chips) 
+Seat 8: trips1126 (1500 in chips) 
+Seat 9: grmpjb (1500 in chips) 
+norgas69: posts the ante 3
+jaygee1984: posts the ante 3
+renniweg: posts the ante 3
+p_coxinha: posts the ante 3
+MasterQkiu: posts the ante 3
+Oterbach: posts the ante 3
+SilveradoSP: posts the ante 3
+trips1126: posts the ante 3
+grmpjb: posts the ante 3
+jaygee1984: posts small blind 10
+renniweg: posts big blind 20
+*** HOLE CARDS ***
+Dealt to renniweg [Ac 3h]
+p_coxinha: folds 
+MasterQkiu: folds 
+Oterbach: folds 
+SilveradoSP: folds 
+trips1126: calls 20
+grmpjb: calls 20
+norgas69: folds 
+jaygee1984: folds 
+renniweg: checks 
+*** FLOP *** [9s 6h 6c]
+renniweg: checks 
+trips1126: bets 80
+grmpjb: folds 
+renniweg: folds 
+Uncalled bet (80) returned to trips1126
+trips1126 collected 97 from pot
+*** SUMMARY ***
+Total pot 97 | Rake 0 
+Board [9s 6h 6c]
+Seat 1: norgas69 (button) folded before Flop (didn't bet)
+Seat 2: jaygee1984 (small blind) folded before Flop
+Seat 3: renniweg (big blind) folded on the Flop
+Seat 4: p_coxinha folded before Flop (didn't bet)
+Seat 5: MasterQkiu folded before Flop (didn't bet)
+Seat 6: Oterbach folded before Flop (didn't bet)
+Seat 7: SilveradoSP folded before Flop (didn't bet)
+Seat 8: trips1126 collected (97)
+Seat 9: grmpjb folded on the Flop

@@ -416,3 +416,18 @@ test('\nHoldem.PokerStars: player sitting out', function(t) {
   ))
   t.end()
 })
+
+test('\nHoldem.PokerStars: player collected before showdown', function(t) {
+  const txt = fs.readFileSync(path.join(holdem_ps, 'collect-on-flop.txt'), 'utf8')
+  const res = parse(txt)
+  // trips1126 collected 97 during flop
+  const lastFlopAction = res.flop.pop()
+  spok(t, lastFlopAction,
+    { $topic: 'last flop action'
+    , player: 'trips1126'
+    , type: 'collect'
+    , amount: 97
+    , metadata: { lineno: 39, raw: 'trips1126 collected 97 from pot' } })
+
+  t.end()
+})
