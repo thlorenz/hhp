@@ -1,0 +1,53 @@
+PokerStars Hand #159582303745: Tournament #1689829479, $3.19+$0.31 USD Hold'em No Limit - Level III (25/50) - 2016/10/06 23:20:07 ET
+Table '1689829479 5' 9-max Seat #5 is the button
+Seat 1: held (1631 in chips) 
+Seat 2: direbolical1 (6435 in chips) 
+Seat 3: John Doe 808 (2177 in chips) 
+Seat 4: jaygee1984 (1445 in chips) 
+Seat 5: marco capile (2954 in chips) 
+Seat 7: almirantonio (2703 in chips) 
+Seat 9: mister MH (1475 in chips) 
+held: posts the ante 6
+direbolical1: posts the ante 6
+John Doe 808: posts the ante 6
+jaygee1984: posts the ante 6
+marco capile: posts the ante 6
+almirantonio: posts the ante 6
+mister MH: posts the ante 6
+almirantonio: posts small blind 25
+mister MH: posts big blind 50
+*** HOLE CARDS ***
+Dealt to held [8s 6h]
+held: folds 
+direbolical1: folds 
+John Doe 808: folds 
+jaygee1984: folds 
+marco capile: raises 50 to 100
+almirantonio: calls 75
+mister MH: calls 50
+*** FLOP *** [2c 3d Jd]
+almirantonio: checks 
+mister MH: bets 171
+marco capile: calls 171
+almirantonio: folds 
+*** TURN *** [2c 3d Jd] [7h]
+mister MH: checks 
+marco capile: bets 342
+mister MH: raises 856 to 1198 and is all-in
+marco capile: calls 856
+*** RIVER *** [2c 3d Jd 7h] [8d]
+*** SHOW DOWN ***
+mister MH: shows [Qd Js] (a pair of Jacks)
+marco capile: shows [Jc Kh] (a pair of Jacks - King kicker)
+marco capile collected 3080 from pot
+mister MH finished the tournament in 28th place
+*** SUMMARY ***
+Total pot 3080 | Rake 0 
+Board [2c 3d Jd 7h 8d]
+Seat 1: held folded before Flop (didn't bet)
+Seat 2: direbolical1 folded before Flop (didn't bet)
+Seat 3: John Doe 808 folded before Flop (didn't bet)
+Seat 4: jaygee1984 folded before Flop (didn't bet)
+Seat 5: marco capile (button) showed [Jc Kh] and won (3080) with a pair of Jacks
+Seat 7: almirantonio (small blind) folded on the Flop
+Seat 9: mister MH (big blind) showed [Qd Js] and lost with a pair of Jacks

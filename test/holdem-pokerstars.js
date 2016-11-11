@@ -431,3 +431,17 @@ test('\nHoldem.PokerStars: player collected before showdown', function(t) {
 
   t.end()
 })
+
+test('\nHoldem.PokerStars: player with " " in name collected at showdown', function(t) {
+  const txt = fs.readFileSync(path.join(holdem_ps, 'collected-on-showdown.txt'), 'utf8')
+  const res = parse(txt)
+  // marco capile collected 3080 from pot
+  spok(t, res.showdown.pop(),
+    { $topic: 'last showdown action'
+    , player: 'marco capile'
+    , type: 'collect'
+    , amount: 3080
+    , metadata: { lineno: 41, raw: 'marco capile collected 3080 from pot' } })
+
+  t.end()
+})
