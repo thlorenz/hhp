@@ -18,6 +18,7 @@ function insp(obj, depth) {
 function inspect(obj, depth) {
   console.error(require('util').inspect(obj, false, depth || 5, true))
 }
+const save = require('./util/save')
 /* eslint-ensable no-unused-vars */
 
 function withoutUndefined(o) {
