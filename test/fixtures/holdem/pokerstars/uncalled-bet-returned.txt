@@ -1,0 +1,61 @@
+PokerStars Hand #159582406766: Tournament #1689829479, $3.19+$0.31 USD Hold'em No Limit - Level IV (40/80) - 2016/10/06 23:26:09 ET
+Table '1689829479 4' 9-max Seat #9 is the button
+Seat 1: GuiTrettel (2240 in chips) 
+Seat 2: Raven_0866 (4071 in chips) 
+Seat 3: bobalex007 (4073 in chips) 
+Seat 4: held (1915 in chips) 
+Seat 5: Potekh (1260 in chips) 
+Seat 6: msilveira11 (2402 in chips) 
+Seat 7: direbolical1 (5589 in chips) 
+Seat 8: Scorpion333 (1977 in chips) 
+Seat 9: Siwy Johnny (1350 in chips) 
+GuiTrettel: posts the ante 10
+Raven_0866: posts the ante 10
+bobalex007: posts the ante 10
+held: posts the ante 10
+Potekh: posts the ante 10
+msilveira11: posts the ante 10
+direbolical1: posts the ante 10
+Scorpion333: posts the ante 10
+Siwy Johnny: posts the ante 10
+GuiTrettel: posts small blind 40
+Raven_0866: posts big blind 80
+*** HOLE CARDS ***
+Dealt to held [Qs Ah]
+bobalex007: calls 80
+held: raises 97 to 177
+Potekh: folds 
+msilveira11: folds 
+direbolical1: folds 
+Scorpion333: folds 
+Siwy Johnny: folds 
+GuiTrettel: raises 223 to 400
+Raven_0866: folds 
+bobalex007: folds 
+held: calls 223
+*** FLOP *** [4c Kd 7s]
+GuiTrettel: bets 400
+held: raises 720 to 1120
+GuiTrettel: calls 720
+*** TURN *** [4c Kd 7s] [4d]
+GuiTrettel: bets 710 and is all-in
+held: calls 385 and is all-in
+Uncalled bet (325) returned to GuiTrettel
+*** RIVER *** [4c Kd 7s 4d] [9c]
+*** SHOW DOWN ***
+GuiTrettel: shows [Ad Qc] (a pair of Fours)
+held: shows [Qs Ah] (a pair of Fours)
+GuiTrettel collected 2030 from pot
+held collected 2030 from pot
+*** SUMMARY ***
+Total pot 4060 | Rake 0 
+Board [4c Kd 7s 4d 9c]
+Seat 1: GuiTrettel (small blind) showed [Ad Qc] and won (2030) with a pair of Fours
+Seat 2: Raven_0866 (big blind) folded before Flop
+Seat 3: bobalex007 folded before Flop
+Seat 4: held showed [Qs Ah] and won (2030) with a pair of Fours
+Seat 5: Potekh folded before Flop (didn't bet)
+Seat 6: msilveira11 folded before Flop (didn't bet)
+Seat 7: direbolical1 folded before Flop (didn't bet)
+Seat 8: Scorpion333 folded before Flop (didn't bet)
+Seat 9: Siwy Johnny (button) folded before Flop (didn't bet)

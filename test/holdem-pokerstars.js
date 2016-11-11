@@ -445,3 +445,16 @@ test('\nHoldem.PokerStars: player with " " in name collected at showdown', funct
 
   t.end()
 })
+
+test('\nHoldem.PokerStars: player all-in vs. smaller stack has uncalled bet returned', function(t) {
+  const txt = fs.readFileSync(path.join(holdem_ps, 'uncalled-bet-returned.txt'), 'utf8')
+  const res = parse(txt)
+  // Uncalled bet (325) returned to GuiTrettel
+  spok(t, res.turn.pop(),
+    { $topic: 'last turn action'
+    , player: 'GuiTrettel'
+    , type: 'bet-returned'
+    , amount: 325
+    , metadata: { lineno: 42, raw: 'Uncalled bet (325) returned to GuiTrettel' } })
+  t.end()
+})
