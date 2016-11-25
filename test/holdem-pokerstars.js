@@ -457,5 +457,6 @@ test('\nHoldem.PokerStars: player all-in vs. smaller stack has uncalled bet retu
     , type: 'bet-returned'
     , amount: 325
     , metadata: { lineno: 42, raw: 'Uncalled bet (325) returned to GuiTrettel' } })
+
   t.end()
 })

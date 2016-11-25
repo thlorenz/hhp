@@ -1,0 +1,43 @@
+PokerStars Game #23371891311: Tournament #130326981, $10+$1 Hold'em No Limit - Level I (10/20) - 2008/12/29 14:33:21 ET
+Table '130326981 2' 9-max Seat #1 is the button
+Seat 1: held (1500 in chips) 
+Seat 2: Riverratt66 (1500 in chips) 
+Seat 3: roberto--137 (1500 in chips) 
+Seat 4: sloanecurtis (1500 in chips) 
+Seat 5: chrpiehler (1500 in chips) 
+Seat 6: Morgan949 (1500 in chips) 
+Seat 7: Ass'e bastò (1500 in chips) 
+Seat 8: Mr. Martini7 (1500 in chips) 
+Seat 9: 44Albo44 (1500 in chips) 
+Riverratt66: posts small blind 10
+roberto--137: posts big blind 20
+*** HOLE CARDS ***
+Dealt to held [7c 3s]
+sloanecurtis: calls 20
+chrpiehler: folds 
+Morgan949: folds 
+Ass'e bastò: folds 
+Mr. Martini7: folds 
+44Albo44: raises 80 to 100
+held: folds 
+Riverratt66: folds 
+roberto--137: folds 
+sloanecurtis: calls 80
+*** FLOP *** [2s 9s 5d]
+sloanecurtis: checks 
+44Albo44: bets 100
+sloanecurtis: folds 
+Uncalled bet (100) returned to 44Albo44
+44Albo44 collected 230 from pot
+*** SUMMARY ***
+Total pot 230 | Rake 0 
+Board [2s 9s 5d]
+Seat 1: held (button) folded before Flop (didn't bet)
+Seat 2: Riverratt66 (small blind) folded before Flop
+Seat 3: roberto--137 (big blind) folded before Flop
+Seat 4: sloanecurtis folded on the Flop
+Seat 5: chrpiehler folded before Flop (didn't bet)
+Seat 6: Morgan949 folded before Flop (didn't bet)
+Seat 7: Ass'e bastò folded before Flop (didn't bet)
+Seat 8: Mr. Martini7 folded before Flop (didn't bet)
+Seat 9: 44Albo44 collected (230)
