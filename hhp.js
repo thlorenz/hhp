@@ -27,11 +27,13 @@ function getLines(txt) {
  * @name parse
  * @function
  * @param {string} input the textual representation of one poker hand as written to the HandHistory folder
+ * @param {object} opts various options
+ * @param {boolean} opts.infoOnly denotes that only the header line of the hand is parsed and only the info object returned
  * @return {object} representation of the given hand to be used as input for other tools like hha
  */
-exports = module.exports = function parse(input) {
+exports = module.exports = function parse(input, opts) {
   const lines = Array.isArray(input) ? input : getLines(input).filter(stringUtil.emptyLine)
-  if (holdem_ps.canParse(lines)) return holdem_ps.parse(lines)
+  if (holdem_ps.canParse(lines)) return holdem_ps.parse(lines, opts)
 }
 
 /**

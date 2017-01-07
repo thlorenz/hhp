@@ -1,6 +1,3 @@
-/* eslint-disable comma-style, operator-linebreak, space-unary-ops, no-multi-spaces, key-spacing, indent */
-'use strict'
-
 const test = require('tape')
 const spok = require('spok')
 const parse = require('../')
@@ -8,6 +5,7 @@ const parse = require('../')
 const fs = require('fs')
 const path = require('path')
 const fixtures = path.join(__dirname, 'fixtures')
+/* eslint-disable camelcase */
 const holdem_ps = path.join(fixtures, 'holdem', 'pokerstars')
 
 /* eslint-disable no-unused-vars */
