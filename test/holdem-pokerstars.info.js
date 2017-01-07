@@ -109,3 +109,30 @@ test('\npokerstars: tournament info 2008', function(t) {
       , raw: 'PokerStars Game #23371891311: Tournament #130326981, $10+$1 Hold\'em No Limit - Level I (10/20) - 2008/12/29 14:33:21 ET' } })
   t.end()
 })
+
+test('\npokerstars: CG Zoom info 2017', function(t) {
+  const txt = 'PokerStars Zoom Hand #164181769033:  ' +
+              'Hold\'em No Limit ($0.02/$0.05) - ' +
+              '2017/01/07 9:48:34 ET'
+  const info = parse(txt, opts)
+  spok(t, info,
+    { room: 'pokerstars'
+    , handid: '164181769033'
+    , gametype: 'cashgame'
+    , currency: '$'
+    , pokertype: 'holdem'
+    , limit: 'nolimit'
+    , sb: 0.02
+    , bb: 0.05
+    , year: 2017
+    , month: 1
+    , day: 7
+    , hour: 9
+    , min: 48
+    , sec: 34
+    , timezone: 'ET'
+    , metadata:
+      { lineno: 0
+      , raw: 'PokerStars Zoom Hand #164181769033:  Hold\'em No Limit ($0.02/$0.05) - 2017/01/07 9:48:34 ET' } })
+  t.end()
+})
