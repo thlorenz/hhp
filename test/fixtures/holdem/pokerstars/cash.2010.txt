@@ -1,0 +1,42 @@
+PokerStars Game #41784027206:  Hold'em No Limit ($0.05/$0.10 USD) - 2010/03/27 11:32:24 ET
+Table 'Eunike II' 6-max Seat #2 is the button
+Seat 1: I.C.U-2-Win ($16.65 in chips) 
+Seat 2: Kozlicek_x ($9.85 in chips) 
+Seat 3: held ($11.30 in chips) 
+Seat 4: stefanengel ($2 in chips) 
+Seat 5: glaine 59 ($0.75 in chips) 
+Seat 6: AIG 2U ($15.20 in chips) 
+held: posts small blind $0.05
+stefanengel: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to held [Ad 7d]
+glaine 59: calls $0.10
+AIG 2U: folds 
+I.C.U-2-Win: raises $0.30 to $0.40
+Kozlicek_x: folds 
+held: folds 
+stefanengel: calls $0.30
+glaine 59: calls $0.30
+*** FLOP *** [4d 9h 9s]
+stefanengel: checks 
+glaine 59: bets $0.10
+I.C.U-2-Win: calls $0.10
+stefanengel: raises $1.30 to $1.40
+glaine 59: calls $0.25 and is all-in
+I.C.U-2-Win: folds 
+Uncalled bet ($1.05) returned to stefanengel
+*** TURN *** [4d 9h 9s] [Qc]
+*** RIVER *** [4d 9h 9s Qc] [2d]
+*** SHOW DOWN ***
+stefanengel: shows [Ac 9d] (three of a kind, Nines)
+glaine 59: mucks hand 
+stefanengel collected $1.95 from pot
+*** SUMMARY ***
+Total pot $2.05 | Rake $0.10 
+Board [4d 9h 9s Qc 2d]
+Seat 1: I.C.U-2-Win folded on the Flop
+Seat 2: Kozlicek_x (button) folded before Flop (didn't bet)
+Seat 3: held (small blind) folded before Flop
+Seat 4: stefanengel (big blind) showed [Ac 9d] and won ($1.95) with three of a kind, Nines
+Seat 5: glaine 59 mucked [Th 8h]
+Seat 6: AIG 2U folded before Flop (didn't bet)

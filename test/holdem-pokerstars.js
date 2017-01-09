@@ -1,5 +1,8 @@
 const test = require('tape')
 const spok = require('spok')
+const spokUtl = require('./util/spok')
+const clean = spokUtl.clean
+const topic = spokUtl.topic
 const parse = require('../')
 
 const fs = require('fs')
@@ -18,31 +21,6 @@ function inspect(obj, depth) {
 }
 const save = require('./util/save')
 /* eslint-ensable no-unused-vars */
-
-function withoutUndefined(o) {
-  function isDefined(k) {
-    return typeof o[k] !== 'undefined'
-      && (k !== 'allin' || o[k])
-  }
-
-  function add(acc, k) {
-    acc[k] = o[k]
-    return acc
-  }
-
-  return Object.keys(o)
-    .filter(isDefined)
-    .reduce(add, {})
-}
-
-function clean(arr) {
-  return arr.map(withoutUndefined)
-}
-
-function topic(t, arr) {
-  arr.$topic = t
-  return arr
-}
 
 test('\nHoldem.PokerStars: action on all streets', function(t) {
   const txt = fs.readFileSync(path.join(holdem_ps, 'actiononall.txt'), 'utf8')

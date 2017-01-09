@@ -1,0 +1,42 @@
+PokerStars Zoom Hand #164150709626:  Hold'em No Limit ($0.02/$0.05) - 2017/01/06 17:15:11 ET
+Table 'Donati' 6-max Seat #1 is the button
+Seat 1: Mr.BinAlik ($0.96 in chips) 
+Seat 2: B0GEYMAN ($23.69 in chips) 
+Seat 3: held ($5 in chips) 
+Seat 4: pfckfdcrbq ($10 in chips) 
+Seat 5: Lobster01RUS ($5 in chips) 
+Seat 6: moreno627 ($9.61 in chips) 
+B0GEYMAN: posts small blind $0.02
+held: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to held [Ac 4h]
+pfckfdcrbq: folds 
+Lobster01RUS: folds 
+moreno627: raises $0.05 to $0.10
+Mr.BinAlik: calls $0.10
+B0GEYMAN: folds 
+held: calls $0.05
+*** FLOP *** [6c Jd 6d]
+held: checks 
+moreno627: checks 
+Mr.BinAlik: checks 
+*** TURN *** [6c Jd 6d] [2h]
+held: checks 
+moreno627: checks 
+Mr.BinAlik: checks 
+*** RIVER *** [6c Jd 6d 2h] [5d]
+held: bets $0.15
+moreno627: folds 
+Mr.BinAlik: folds 
+Uncalled bet ($0.15) returned to held
+held collected $0.31 from pot
+held: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.32 | Rake $0.01 
+Board [6c Jd 6d 2h 5d]
+Seat 1: Mr.BinAlik (button) folded on the River
+Seat 2: B0GEYMAN (small blind) folded before Flop
+Seat 3: held (big blind) collected ($0.31)
+Seat 4: pfckfdcrbq folded before Flop (didn't bet)
+Seat 5: Lobster01RUS folded before Flop (didn't bet)
+Seat 6: moreno627 folded on the River
