@@ -1,0 +1,40 @@
+PokerStars Zoom Hand #164276048618:  Hold'em No Limit ($0.02/$0.05) - 2017/01/08 21:10:13 ET
+Table 'Donati' 6-max Seat #1 is the button
+Seat 1: MATH CULTURE ($7.43 in chips)
+Seat 2: szatan88 ($5.22 in chips)
+Seat 3: held ($6.68 in chips)
+Seat 4: pabliq9 ($7.16 in chips)
+Seat 5: SpicedGoldie ($8.17 in chips)
+Seat 6: flopthewop ($5.25 in chips)
+szatan88: posts small blind $0.02
+held: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to held [4s 2s]
+pabliq9: raises $0.10 to $0.15
+SpicedGoldie: folds
+flopthewop: folds
+MATH CULTURE: calls $0.15
+szatan88: folds
+held: folds
+*** FLOP *** [Th Qs Qh]
+pabliq9: checks
+MATH CULTURE: checks
+*** TURN *** [Th Qs Qh] [Jc]
+pabliq9: checks
+MATH CULTURE: checks
+*** RIVER *** [Th Qs Qh Jc] [6s]
+pabliq9: checks
+MATH CULTURE: checks
+*** SHOW DOWN ***
+pabliq9: shows [4c 4d] (two pair, Queens and Fours)
+MATH CULTURE: mucks hand
+pabliq9 collected $0.35 from pot
+*** SUMMARY ***
+Total pot $0.37 | Rake $0.02
+Board [Th Qs Qh Jc 6s]
+Seat 1: MATH CULTURE (button) mucked [3d 3c]
+Seat 2: szatan88 (small blind) folded before Flop
+Seat 3: held (big blind) folded before Flop
+Seat 4: pabliq9 showed [4c 4d] and won ($0.35) with two pair, Queens and Fours
+Seat 5: SpicedGoldie folded before Flop (didn't bet)
+Seat 6: flopthewop folded before Flop (didn't bet)"

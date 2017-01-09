@@ -1,0 +1,41 @@
+PokerStars Zoom Hand #164151764888:  Hold'em No Limit ($0.02/$0.05) - 2017/01/06 17:33:19 ET
+Table 'Donati' 6-max Seat #1 is the button
+Seat 1: wwjorge ($3.15 in chips)
+Seat 2: Roni (LBK) ($2.23 in chips)
+Seat 3: MerVit (Added Parens) ($5.24 in chips)
+Seat 4: drakfiskaren ($5 in chips)
+Seat 5: JohnnyVHS ($6.05 in chips)
+Seat 6: held ($9.92 in chips)
+Roni (LBK): posts small blind $0.02
+MerVit (Added Parens): posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to held [2s 4h]
+drakfiskaren: folds
+JohnnyVHS: folds
+held: folds
+wwjorge has timed out
+wwjorge: folds
+Roni (LBK): raises $0.10 to $0.15
+MerVit (Added Parens): calls $0.10
+*** FLOP *** [9d Qh 4d]
+Roni (LBK): checks
+MerVit (Added Parens): checks
+*** TURN *** [9d Qh 4d] [Qc]
+Roni (LBK): checks
+MerVit (Added Parens): checks
+*** RIVER *** [9d Qh 4d Qc] [Jc]
+Roni (LBK): checks
+MerVit (Added Parens): checks
+*** SHOW DOWN ***
+Roni (LBK): shows [Kd Ac] (a pair of Queens)
+MerVit (Added Parens): mucks hand
+Roni (LBK) collected $0.29 from pot
+*** SUMMARY ***
+Total pot $0.30 | Rake $0.01
+Board [9d Qh 4d Qc Jc]
+Seat 1: wwjorge (button) folded before Flop (didn't bet)
+Seat 2: Roni (LBK) (small blind) showed [Kd Ac] and won ($0.29) with a pair of Queens
+Seat 3: MerVit (Added Parens) (big blind) mucked [7d Kc]
+Seat 4: drakfiskaren folded before Flop (didn't bet)
+Seat 5: JohnnyVHS folded before Flop (didn't bet)
+Seat 6: held folded before Flop (didn't bet)

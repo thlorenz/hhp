@@ -345,3 +345,115 @@ test('\nHoldem.PokerStars: Cash from 2010', function(t) {
 
   t.end()
 })
+
+test('\nHoldem.PokerStars: cash mucked cards', function(t) {
+  const txt = fs.readFileSync(path.join(holdem_ps, 'cash.zoom.2017.muck-cards.txt'), 'utf8')
+  const res = parse(txt)
+
+  spok(t, clean(res.showdown), topic('showdown',
+    [ { player: 'pabliq9'
+     , type: 'show'
+     , card1: '4c'
+     , card2: '4d'
+     , desc: 'two pair, Queens and Fours'
+     , metadata:
+        { lineno: 28
+        , raw: 'pabliq9: shows [4c 4d] (two pair, Queens and Fours)' } }
+    , { player: 'pabliq9'
+     , type: 'collect'
+     , amount: 0.35
+     , metadata: { lineno: 30, raw: 'pabliq9 collected $0.35 from pot' } }
+    , { player: 'MATH CULTURE'
+     , type: 'muck'
+     , card1: '3d'
+     , card2: '3c'
+     , metadata:
+        { lineno: 34
+        , raw: 'Seat 1: MATH CULTURE (button) mucked [3d 3c]' } } ]))
+  t.end()
+})
+
+test('\nHoldem.PokerStars: playernames have parentheses', function(t) {
+  const txt = fs.readFileSync(path.join(holdem_ps, 'cash.zoom.2017.parens-in-playername.txt'), 'utf8')
+  const res = parse(txt)
+
+  spok(t, res.seats, topic('seats',
+    [ { seatno: 1
+     , player: 'wwjorge'
+     , chips: 3.15
+     , metadata: { lineno: 2, raw: 'Seat 1: wwjorge ($3.15 in chips)' } }
+    , { seatno: 2
+     , player: 'Roni (LBK)'
+     , chips: 2.23
+     , metadata: { lineno: 3, raw: 'Seat 2: Roni (LBK) ($2.23 in chips)' } }
+    , { seatno: 3
+     , player: 'MerVit (Added Parens)'
+     , chips: 5.24
+     , metadata: { lineno: 4, raw: 'Seat 3: MerVit (Added Parens) ($5.24 in chips)' } }
+    , { seatno: 4
+     , player: 'drakfiskaren'
+     , chips: 5
+     , metadata: { lineno: 5, raw: 'Seat 4: drakfiskaren ($5 in chips)' } }
+    , { seatno: 5
+     , player: 'JohnnyVHS'
+     , chips: 6.05
+     , metadata: { lineno: 6, raw: 'Seat 5: JohnnyVHS ($6.05 in chips)' } }
+    , { seatno: 6
+     , player: 'held'
+     , chips: 9.92
+     , metadata: { lineno: 7, raw: 'Seat 6: held ($9.92 in chips)' } } ]))
+
+  spok(t, res.posts, topic('posts',
+    [ { player: 'Roni (LBK)'
+     , type: 'sb'
+     , amount: 0.02
+     , metadata: { lineno: 8, raw: 'Roni (LBK): posts small blind $0.02' } }
+    , { player: 'MerVit (Added Parens)'
+     , type: 'bb'
+     , amount: 0.05
+     , metadata: { lineno: 9, raw: 'MerVit (Added Parens): posts big blind $0.05' } } ]))
+
+  spok(t, clean(res.preflop), topic('preflop',
+    [ { player: 'drakfiskaren'
+     , type: 'fold'
+     , metadata: { lineno: 12, raw: 'drakfiskaren: folds' } }
+    , { player: 'JohnnyVHS'
+     , type: 'fold'
+     , metadata: { lineno: 13, raw: 'JohnnyVHS: folds' } }
+    , { player: 'held'
+     , type: 'fold'
+     , metadata: { lineno: 14, raw: 'held: folds' } }
+    , { player: 'wwjorge'
+     , type: 'fold'
+     , metadata: { lineno: 16, raw: 'wwjorge: folds' } }
+    , { player: 'Roni (LBK)'
+     , type: 'raise'
+     , amount: 0.1
+     , raiseTo: 0.15
+     , metadata: { lineno: 17, raw: 'Roni (LBK): raises $0.10 to $0.15' } }
+    , { player: 'MerVit (Added Parens)'
+     , type: 'call'
+     , amount: 0.1
+     , metadata: { lineno: 18, raw: 'MerVit (Added Parens): calls $0.10' } } ]))
+
+  spok(t, clean(res.showdown), topic('showdown',
+    [ { player: 'Roni (LBK)'
+     , type: 'show'
+     , card1: 'Kd'
+     , card2: 'Ac'
+     , desc: 'a pair of Queens'
+     , metadata:
+        { lineno: 29
+        , raw: 'Roni (LBK): shows [Kd Ac] (a pair of Queens)' } }
+    , { player: 'Roni (LBK)'
+     , type: 'collect'
+     , amount: 0.29
+     , metadata: { lineno: 31, raw: 'Roni (LBK) collected $0.29 from pot' } }
+    , { player: 'MerVit (Added Parens)'
+     , type: 'muck'
+     , card1: '7d'
+     , card2: 'Kc'
+     , metadata: { lineno: 37, raw: 'Seat 3: MerVit (Added Parens) (big blind) mucked [7d Kc]' } } ]))
+
+  t.end()
+})
