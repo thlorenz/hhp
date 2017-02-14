@@ -1,6 +1,6 @@
 {
   "name": "hhp",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "Poker HandHistory Parser",
   "main": "hhp.js",
   "scripts": {
