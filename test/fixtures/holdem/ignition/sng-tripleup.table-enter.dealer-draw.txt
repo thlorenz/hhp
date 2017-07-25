@@ -1,0 +1,84 @@
+Ignition Hand #3548320503: HOLDEM Tournament #18509313 TBL#1, Normal- Level 1 (10/20) - 2017-07-21 13:46:03
+Seat 7: Big Blind [ME] (1,500 in chips)
+Seat 9: UTG (1,500 in chips)
+Seat 1: UTG+1 (1,500 in chips)
+Seat 8: UTG+2 (1,500 in chips)
+Seat 6: UTG+3 (1,500 in chips)
+Seat 3: UTG+4 (1,500 in chips)
+Seat 4: UTG+5 (1,500 in chips)
+Seat 2: Dealer (1,500 in chips)
+Seat 5: Small Blind (1,500 in chips)
+UTG : Table enter user
+UTG+5 : Table enter user
+UTG+2 : Table enter user
+UTG+1 : Table enter user
+Big Blind [ME] : Table enter user
+UTG+4 : Table enter user
+UTG+3 : Table enter user
+Small Blind : Table enter user
+Dealer : Table enter user
+Big Blind [ME] : Draw for dealer [6c] 
+UTG : Draw for dealer [3h] 
+UTG+1 : Draw for dealer [5h] 
+UTG+2 : Draw for dealer [Qh] 
+UTG+3 : Draw for dealer [7s] 
+UTG+4 : Draw for dealer [5c] 
+UTG+5 : Draw for dealer [5s] 
+Dealer : Draw for dealer [Kd] 
+Small Blind : Draw for dealer [Js] 
+Dealer : Set dealer [8] 
+Small Blind : Small blind 10 
+Big Blind [ME] : Big blind 20 
+*** HOLE CARDS ***
+Big Blind [ME] : Card dealt to a spot [Ts 6h] 
+UTG : Card dealt to a spot [Ac 4d] 
+UTG+1 : Card dealt to a spot [Ah Kc] 
+UTG+2 : Card dealt to a spot [Kh 3c] 
+UTG+3 : Card dealt to a spot [7d 3s] 
+UTG+4 : Card dealt to a spot [Js 7h] 
+UTG+5 : Card dealt to a spot [Ks As] 
+Dealer : Card dealt to a spot [Ad Qc] 
+Small Blind : Card dealt to a spot [4h Qd] 
+UTG : Folds
+UTG+1 : Raises 40 to 40
+UTG+2 : Folds
+UTG+3 : Folds
+UTG+4 : Sit out
+UTG+4 : Folds(timeout)
+UTG+5 : Call 40 
+Dealer : Call 40 
+Small Blind : Folds
+Big Blind [ME] : Call 20 
+*** FLOP *** [9d 6d 2d]
+Big Blind [ME] : Checks
+UTG+1 : Checks
+UTG+5 : Checks
+Dealer : Checks
+*** TURN *** [9d 6d 2d] [5s]
+Big Blind [ME] : Checks
+UTG+1 : Checks
+UTG+5 : Checks
+Dealer : Checks
+*** RIVER *** [9d 6d 2d 5s] [Td]
+Big Blind [ME] : Checks
+UTG+1 : Checks
+UTG+5 : Checks
+Dealer : Bets 120 
+Big Blind [ME] : Folds
+UTG+1 : Folds
+UTG+5 : Folds
+Dealer : Return uncalled portion of bet 120 
+Dealer : Does not show [Ad Qc] (Flush)
+Dealer : Hand Result 170 
+*** SUMMARY ***
+Total Pot(170)
+Board [9d 6d 2d 5s Td]
+Seat+7: Big Blind Folded on the RIVER
+Seat+9: UTG Folded on the FLOP
+Seat+1: UTG+1 Folded on the RIVER
+Seat+8: UTG+2 Folded on the FLOP
+Seat+6: UTG+3 Folded on the FLOP
+Seat+3: UTG+4 Folded on the FLOP
+Seat+4: UTG+5 Folded on the RIVER
+Seat+2: Dealer 170 [Does not show]  
+Seat+5: Small Blind Folded on the FLOP

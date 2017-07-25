@@ -1,0 +1,44 @@
+Ignition Hand #3372762461  Zone Poker ID#875 HOLDEMZonePoker No Limit - 2016-10-16 13:55:35
+Seat 1: Big Blind [ME] ($100 in chips)
+Seat 2: UTG ($47.30 in chips)
+Seat 3: UTG+1 ($98.50 in chips)
+Seat 4: UTG+2 ($91.65 in chips)
+Seat 5: Dealer ($124.41 in chips)
+Seat 6: Small Blind ($102 in chips)
+Dealer : Set dealer [5] 
+Small Blind : Small Blind $0.50 
+Big Blind  [ME] : Big blind $1 
+*** HOLE CARDS ***
+Big Blind  [ME] : Card dealt to a spot [Th 3c] 
+UTG : Card dealt to a spot [2h 5d] 
+UTG+1 : Card dealt to a spot [Kh 8c] 
+UTG+2 : Card dealt to a spot [Js 3s] 
+Dealer : Card dealt to a spot [Jc 9d] 
+Small Blind : Card dealt to a spot [4c Qs] 
+UTG : Folds
+UTG : Leave(Auto)
+UTG+2 : Leave(Auto)
+Dealer : Leave(Auto)
+UTG+1 : Folds
+UTG+1 : Leave(Auto)
+UTG+2 : Folds
+Dealer : Folds
+Small Blind : Folds
+Small Blind : Leave(Auto)
+Big Blind  [ME] : Showdown(High Card)
+Big Blind  [ME] : Hand result $1.50 
+Big Blind  [ME] : Leave(Auto)
+Enter(Auto)
+Enter(Auto)
+Dealer : Enter(Auto)
+Big Blind  [ME] : Enter(Auto)
+Enter(Auto)
+Enter(Auto)
+*** SUMMARY ***
+Total Pot($1.50)
+Seat+1: Big Blind $1.50  with High Card [Th 3c]  
+Seat+2: UTG Folded before the FLOP
+Seat+3: UTG+1 Folded before the FLOP
+Seat+4: UTG+2 lost with High Card [Js 3s]  
+Seat+5: Dealer lost with High Card [Jc 9d]  
+Seat+6: Small Blind Folded before the FLOP

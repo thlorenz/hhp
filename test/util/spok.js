@@ -14,8 +14,25 @@ function withoutUndefined(o) {
     .reduce(add, {})
 }
 
-exports.clean = function clean(arr) {
+const clean = exports.clean = function clean(arr) {
   return arr.map(withoutUndefined)
+}
+
+exports.cleanAll = function cleanAll(hand) {
+  Object.keys(hand).forEach(cleanValue)
+  function cleanValue(k) {
+    const val = hand[k]
+    if (!Array.isArray(val)) return
+    hand[k] = clean(val)
+  }
+
+  function cleanCard(k) {
+    if (hand.board[k] == null) delete hand.board[k]
+  }
+  if (hand.board != null) {
+    Object.keys(hand.board).forEach(cleanCard)
+  }
+  return hand
 }
 
 exports.topic = function topic(t, arr) {

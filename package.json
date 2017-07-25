@@ -14,7 +14,7 @@
   "dependencies": {},
   "devDependencies": {
     "ocat": "~0.1.0",
-    "spok": "~0.3.2",
+    "spok": "~0.8.1",
     "tape": "~4.4.0"
   },
   "keywords": [],

@@ -1,0 +1,50 @@
+Ignition Hand #3549325520: HOLDEM Tournament #18094253 TBL#34, Normal- Level 22 (3000/6000) - 2017-07-24 00:26:10
+Seat 297: Dealer (87,396 in chips)
+Seat 38: Small Blind [ME] (82,680 in chips)
+Seat 169: Big Blind (75,938 in chips)
+Seat 133: UTG (66,964 in chips)
+Seat 321: UTG+1 (82,712 in chips)
+Seat 177: UTG+2 (35,471 in chips)
+Seat 317: UTG+3 (31,770 in chips)
+Seat 184: UTG+4 (117,612 in chips)
+Dealer : Set dealer [1] 
+Dealer : Ante chip 600 
+Small Blind [ME] : Ante chip 600 
+Big Blind : Ante chip 600 
+UTG : Ante chip 600 
+UTG+1 : Ante chip 600 
+UTG+2 : Ante chip 600 
+UTG+3 : Ante chip 600 
+UTG+4 : Ante chip 600 
+Small Blind [ME] : Small blind 3000 
+Big Blind : Big blind 6000 
+*** HOLE CARDS ***
+Dealer : Card dealt to a spot [8h Th] 
+Small Blind [ME] : Card dealt to a spot [2d 8s] 
+Big Blind : Card dealt to a spot [Jh 3c] 
+UTG : Card dealt to a spot [6s Kd] 
+UTG+1 : Card dealt to a spot [4d 3d] 
+UTG+2 : Card dealt to a spot [6d 8c] 
+UTG+3 : Card dealt to a spot [9h Qs] 
+UTG+4 : Card dealt to a spot [5c Jc] 
+UTG : Folds
+UTG+1 : Folds
+UTG+2 : Folds
+UTG+3 : Folds
+UTG+4 : Folds
+Dealer : Raises 12000 to 12000
+Small Blind [ME] : Folds
+Big Blind : Folds
+Dealer : Return uncalled portion of bet 6000 
+Dealer : Does not show [8h Th] (High Card)
+Dealer : Hand Result 19800 
+*** SUMMARY ***
+Total Pot(19800)
+Seat+297: Dealer 19800 [Does not show]  
+Seat+38: Small Blind Folded on the FLOP
+Seat+169: Big Blind Folded on the FLOP
+Seat+133: UTG Folded on the FLOP
+Seat+321: UTG+1 Folded on the FLOP
+Seat+177: UTG+2 Folded on the FLOP
+Seat+317: UTG+3 Folded on the FLOP
+Seat+184: UTG+4 Folded on the FLOP

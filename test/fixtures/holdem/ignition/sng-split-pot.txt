@@ -1,0 +1,61 @@
+Ignition Hand #3549213216: HOLDEM Tournament #18534183 TBL#1, Normal- Level 1 (10/20) - 2017-07-23 20:32:37
+Seat 5: UTG+2 (1,440 in chips)
+Seat 8: UTG+3 (1,500 in chips)
+Seat 9: UTG+4 (1,480 in chips)
+Seat 7: UTG+5 (1,500 in chips)
+Seat 6: Dealer (1,600 in chips)
+Seat 4: Small Blind (1,480 in chips)
+Seat 3: Big Blind (1,500 in chips)
+Seat 1: UTG (1,500 in chips)
+Seat 2: UTG+1 [ME] (1,500 in chips)
+Dealer : Set dealer [5] 
+Small Blind : Small blind 10 
+Big Blind : Big blind 20 
+*** HOLE CARDS ***
+UTG+2 : Card dealt to a spot [3c Jc] 
+UTG+3 : Card dealt to a spot [6c 5d] 
+UTG+4 : Card dealt to a spot [Jd Qh] 
+UTG+5 : Card dealt to a spot [5s 9d] 
+Dealer : Card dealt to a spot [6s 6d] 
+Small Blind : Card dealt to a spot [Kh 2h] 
+Big Blind : Card dealt to a spot [Kd 8d] 
+UTG : Card dealt to a spot [Kc 4h] 
+UTG+1 [ME] : Card dealt to a spot [2d 3s] 
+UTG : Folds
+UTG+1 [ME] : Folds
+UTG+2 : Folds
+UTG+3 : Folds
+UTG+4 : Folds
+UTG+5 : Folds
+Dealer : Call 20 
+Small Blind : Call 10 
+Big Blind : Checks
+*** FLOP *** [7c As Ks]
+Small Blind : Bets 30 
+Big Blind : Call 30 
+Dealer : Call 30 
+*** TURN *** [7c As Ks] [Qs]
+Small Blind : Checks
+Big Blind : Checks
+Dealer : Checks
+*** RIVER *** [7c As Ks Qs] [7h]
+Small Blind : Checks
+Big Blind : Checks
+Dealer : Checks
+Small Blind : Showdown [Ks Kh 7h 7c As] (Two pair)
+Big Blind : Showdown [Ks Kd 7h 7c As] (Two pair)
+Dealer : Mucks [6s 6d] (Two pair)
+Small Blind : Hand Result 75 
+Big Blind : Hand Result 75 
+*** SUMMARY ***
+Total Pot(150)
+Board [7c As Ks Qs 7h]
+Seat+5: UTG+2 Folded on the FLOP
+Seat+8: UTG+3 Folded on the FLOP
+Seat+9: UTG+4 Folded on the FLOP
+Seat+7: UTG+5 Folded on the FLOP
+Seat+6: Dealer [Mucked] [6s 6d ]  
+Seat+4: Small Blind 75  with Two pair [Kh 2h-Ks Kh 7h 7c As]  
+Seat+3: Big Blind 75  with Two pair [Kd 8d-Ks Kd 7h 7c As]  
+Seat+1: UTG Folded on the FLOP
+Seat+2: UTG+1 Folded on the FLOP

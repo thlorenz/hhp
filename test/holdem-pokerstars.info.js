@@ -30,7 +30,7 @@ test('\npokerstars: tournament info 2017', function(t) {
     , buyin: 3.5
     , pokertype: 'holdem'
     , limit: 'nolimit'
-    , level: 'i '
+    , level: 'i'
     , sb: 10
     , bb: 20
     , year: 2017
@@ -62,7 +62,7 @@ test('\npokerstars: tournament info 2016', function(t) {
     , buyin: 1
     , pokertype: 'holdem'
     , limit: 'nolimit'
-    , level: 'xi '
+    , level: 'xi'
     , sb: 400
     , bb: 800
     , year: 2016
@@ -94,7 +94,7 @@ test('\npokerstars: tournament info 2008', function(t) {
     , buyin: 11
     , pokertype: 'holdem'
     , limit: 'nolimit'
-    , level: 'i '
+    , level: 'i'
     , sb: 10
     , bb: 20
     , year: 2008

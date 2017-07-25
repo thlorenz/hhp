@@ -1,9 +1,8 @@
-/* eslint-disable comma-style, operator-linebreak, space-unary-ops, no-multi-spaces, key-spacing, indent */
-'use strict'
-
 const stringUtil = require('./lib/util/string')
 
+/* eslint-disable camelcase */
 const holdem_ps = require('./lib/holdem/pokerstars')
+const holdem_ig = require('./lib/holdem/ignition')
 
 function getLines(txt) {
   const trimmed = txt.split('\n').map(stringUtil.trimLine)
@@ -34,6 +33,7 @@ function getLines(txt) {
 exports = module.exports = function parse(input, opts) {
   const lines = Array.isArray(input) ? input : getLines(input).filter(stringUtil.emptyLine)
   if (holdem_ps.canParse(lines)) return holdem_ps.parse(lines, opts)
+  if (holdem_ig.canParse(lines)) return holdem_ig.parse(lines, opts)
 }
 
 /**
@@ -47,9 +47,9 @@ exports = module.exports = function parse(input, opts) {
 exports.extractHands = function extractHands(txt) {
   const lines = getLines(txt)
   const hands = []
-  let hand = []
+  var hand = []
 
-  let i = 0
+  var i = 0
   while (i < lines.length && lines[i] && !lines[i].length) i++   // ignore leading empty lines
   for (; i < lines.length; i++) {
     const line = lines[i]
@@ -65,29 +65,4 @@ exports.extractHands = function extractHands(txt) {
     }
   }
   return hands
-}
-
-// Test
-
-function inspect(obj, depth) {
-  console.error(require('util').inspect(obj, false, depth || 5, true))
-}
-
-if (!module.parent && typeof window === 'undefined') {
-  // const name = 'allin-preflop'
-  // const name = 'actiononall'
-  const fs = require('fs')
-  const path = require('path')
-  // const fixtures = path.join(__dirname, 'test', 'fixtures', 'holdem')
-  const allhands = fs.readFileSync(path.join(__dirname, 'test', 'fixtures', 'hands.txt'), 'utf8')
-  const res = exports.extractHands(allhands)
-  inspect(res)
-  /* const hha_fixtures = path.join(__dirname, '..', 'hha', 'test', 'fixtures', 'holdem')
-  const txt = fs.readFileSync(path.join(fixtures, 'pokerstars', name + '.txt'), 'utf8')
-
-  const res = module.exports(txt)
-  inspect(res)
-  fs.writeFileSync(path.join(hha_fixtures, name + '.json'),
-                   JSON.stringify(res, null, 2),
-                   'utf8')*/
 }

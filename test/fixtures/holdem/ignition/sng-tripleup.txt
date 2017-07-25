@@ -1,0 +1,56 @@
+Ignition Hand #3548320887: HOLDEM Tournament #18509313 TBL#1, Normal- Level 1 (10/20) - 2017-07-21 13:48:15
+Seat 7: Small Blind [ME] (1,460 in chips)
+Seat 9: Big Blind (1,500 in chips)
+Seat 1: UTG (1,460 in chips)
+Seat 8: UTG+1 (1,500 in chips)
+Seat 6: UTG+2 (1,500 in chips)
+Seat 3: UTG+3 (1,500 in chips)
+Seat 4: UTG+4 (1,460 in chips)
+Seat 2: UTG+5 (1,630 in chips)
+Seat 5: Dealer (1,490 in chips)
+Dealer : Set dealer [9] 
+Small Blind [ME] : Small blind 10 
+Big Blind : Big blind 20 
+*** HOLE CARDS ***
+Small Blind [ME] : Card dealt to a spot [7c Th] 
+Big Blind : Card dealt to a spot [2d Jd] 
+UTG : Card dealt to a spot [Kc 8c] 
+UTG+1 : Card dealt to a spot [5d Qc] 
+UTG+2 : Card dealt to a spot [4h 4s] 
+UTG+3 : Card dealt to a spot [9c 8s] 
+UTG+4 : Card dealt to a spot [Ac Qs] 
+UTG+5 : Card dealt to a spot [6c Ks] 
+Dealer : Card dealt to a spot [9s 3c] 
+UTG+3 : Re-join
+UTG : Call 20 
+UTG+1 : Folds
+UTG+2 : Call 20 
+UTG+3 : Folds
+UTG+4 : Raises 60 to 60
+UTG+5 : Folds
+Dealer : Folds
+Small Blind [ME] : Folds
+Big Blind : Folds
+UTG : Call 40 
+UTG+2 : Call 40 
+*** FLOP *** [Qh 9h 5c]
+UTG : Checks
+UTG+2 : Checks
+UTG+4 : Bets 100 
+UTG : Folds
+UTG+2 : Folds
+UTG+4 : Return uncalled portion of bet 100 
+UTG+4 : Does not show [Ac Qs] (One pair)
+UTG+4 : Hand Result 210 
+*** SUMMARY ***
+Total Pot(210)
+Board [Qh 9h 5c  ]
+Seat+7: Small Blind Folded on the FLOP
+Seat+9: Big Blind Folded on the FLOP
+Seat+1: UTG Folded on the FLOP
+Seat+8: UTG+1 Folded on the FLOP
+Seat+6: UTG+2 Folded on the FLOP
+Seat+3: UTG+3 Folded on the FLOP
+Seat+4: UTG+4 210 [Does not show]  
+Seat+2: UTG+5 Folded on the FLOP
+Seat+5: Dealer Folded on the FLOP

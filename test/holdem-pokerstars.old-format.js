@@ -7,6 +7,7 @@ const parse = require('../')
 const fs = require('fs')
 const path = require('path')
 const fixtures = path.join(__dirname, 'fixtures')
+/* eslint-disable camelcase */
 const holdem_ps = path.join(fixtures, 'holdem', 'pokerstars')
 
 /* eslint-disable no-unused-vars */
@@ -36,7 +37,7 @@ test('\nparses 2008 tournament', function(t) {
     , buyin: 11
     , pokertype: 'holdem'
     , limit: 'nolimit'
-    , level: 'i '
+    , level: 'i'
     , sb: 10
     , bb: 20
     , year: 2008

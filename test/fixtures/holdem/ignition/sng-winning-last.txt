@@ -1,0 +1,30 @@
+Ignition Hand #3549255643: HOLDEM Tournament #18534183 TBL#1, Normal- Level 9 (250/500) - 2017-07-23 21:54:37
+Seat 3: Big Blind (11,900 in chips)
+Seat 2: Dealer [ME] (1,600 in chips)
+Dealer [ME] : Set dealer [9] 
+Big Blind : Ante chip 50 
+Dealer [ME] : Ante chip 50 
+Dealer [ME] : Small blind 250 
+Big Blind : Big blind 500 
+*** HOLE CARDS ***
+Big Blind : Card dealt to a spot [Tc As] 
+Dealer [ME] : Card dealt to a spot [9s Qd] 
+Dealer [ME] : All-in(raise) 1300 to 1550
+Big Blind : Call 1050 
+*** FLOP *** [2d Td 5s]
+*** TURN *** [2d Td 5s] [5d]
+*** RIVER *** [2d Td 5s 5d] [3c]
+Big Blind : Showdown [Td Tc 5s 5d As] (Two pair)
+Dealer [ME] : Showdown [5s 5d Qd Td 9s] (One pair)
+Big Blind : Hand Result 3200 
+Dealer [ME] : Ranking 2 
+Dealer [ME] : Prize Cash [$13.50] 
+Big Blind : Ranking 1 
+Big Blind : Prize Cash [$22.50] 
+Dealer [ME] : Stand
+Big Blind : Stand
+*** SUMMARY ***
+Total Pot(3200)
+Board [2d Td 5s 5d 3c]
+Seat+3: Big Blind 3200  with Two pair [Tc As-Td Tc 5s 5d As]  
+Seat+2: Dealer lose with One pair [9s Qd-5s 5d Qd Td 9s]  

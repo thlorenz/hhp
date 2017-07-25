@@ -4,7 +4,7 @@ Poker HandHistory Parser
 
 ## Status
 
-Parses PokerStars Hold'em hands.
+Parses PokerStars and Ignition Hold'em hands, tourneys, SNGs and Cash.
 
 ## Installation
 

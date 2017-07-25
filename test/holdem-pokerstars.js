@@ -37,7 +37,7 @@ test('\nHoldem.PokerStars: action on all streets', function(t) {
     , buyin: 1
     , pokertype: 'holdem'
     , limit: 'nolimit'
-    , level: 'xi '
+    , level: 'xi'
     , sb: 400
     , bb: 800
     , ante: 50
@@ -207,7 +207,7 @@ test('\nHoldem.PokerStars: all-in preflop', function(t) {
     , buyin: 1
     , pokertype: 'holdem'
     , limit: 'nolimit'
-    , level: 'xi '
+    , level: 'xi'
     , sb: 400
     , bb: 800
     , ante: 50
