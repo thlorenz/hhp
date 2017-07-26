@@ -4,7 +4,9 @@
   "description": "Poker HandHistory Parser",
   "main": "hhp.js",
   "scripts": {
-    "test": "tape test/*.js"
+    "test": "tape test/*.js",
+    "test-ps": "tape test/*pokerstars*.js",
+    "test-ig": "tape test/*ignition*.js"
   },
   "repository": {
     "type": "git",
