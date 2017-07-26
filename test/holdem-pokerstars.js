@@ -127,6 +127,9 @@ test('\nHoldem.PokerStars: action on all streets', function(t) {
            { lineno: 30
            , raw: 'Irisha2: shows [Jh Qs] (a full house, Threes full of Jacks)' }
         , desc: 'a full house, Threes full of Jacks' }
+      , { player: 'Fischersito'
+        , type: 'muck'
+        , metadata: { lineno: 31, raw: 'Fischersito: mucks hand' } }
       , { player: 'Irisha2'
         , type: 'collect'
         , amount: 19000

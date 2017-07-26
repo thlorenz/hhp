@@ -34,6 +34,13 @@ Seat 9: DyoReis folded before Flop (didn't bet)
      , rake: 0
      , metadata: { lineno: 1, raw: 'Total pot 217 | Rake 0' } }
     , { type: 'folded'
+     , seatno: 1
+     , player: '[GPH]Philipp'
+     , position: ''
+     , street: 'flop'
+     , bet: true
+     , metadata: { lineno: 3, raw: 'Seat 1: [GPH]Philipp folded on the Flop' } }
+    , { type: 'folded'
      , seatno: 2
      , player: 'bittenks'
      , position: ''

@@ -331,6 +331,9 @@ test('\nHoldem.PokerStars: Cash from 2010', function(t) {
            { lineno: 30
            , raw: 'stefanengel: shows [Ac 9d] (three of a kind, Nines)' }
         , desc: 'three of a kind, Nines' }
+      , { player: 'glaine 59'
+        , type: 'muck'
+        , metadata: { lineno: 31, raw: 'glaine 59: mucks hand' } }
       , { player: 'stefanengel'
         , type: 'collect'
         , amount: 1.95
@@ -341,6 +344,13 @@ test('\nHoldem.PokerStars: Cash from 2010', function(t) {
         , amount: 2.05
         , rake: 0.1
         , metadata: { lineno: 34, raw: 'Total pot $2.05 | Rake $0.10' } }
+      , { type: 'folded'
+        , seatno: 1
+        , player: 'I.C.U-2-Win'
+        , position: ''
+        , street: 'flop'
+        , bet: true
+        , metadata: { lineno: 36, raw: 'Seat 1: I.C.U-2-Win folded on the Flop' } }
       , { type: 'folded'
         , seatno: 2
         , player: 'Kozlicek_x'
@@ -425,6 +435,7 @@ test('\nHoldem.PokerStars: Cash from 2010', function(t) {
       , card4: 'Qc'
       , card5: '2d'
       , metadata: { lineno: 35, raw: 'Board [4d 9h 9s Qc 2d]' } } })
+
   t.end()
 })
 
@@ -584,6 +595,9 @@ test('\nHoldem.PokerStars: playernames have parentheses', function(t) {
            { lineno: 29
            , raw: 'Roni (LBK): shows [Kd Ac] (a pair of Queens)' }
         , desc: 'a pair of Queens' }
+      , { player: 'MerVit (Added Parens)'
+        , type: 'muck'
+        , metadata: { lineno: 30, raw: 'MerVit (Added Parens): mucks hand' } }
       , { player: 'Roni (LBK)'
         , type: 'collect'
         , amount: 0.29
@@ -689,6 +703,5 @@ test('\nHoldem.PokerStars: playernames have parentheses', function(t) {
       , card4: 'Qc'
       , card5: 'Jc'
       , metadata: { lineno: 34, raw: 'Board [9d Qh 4d Qc Jc]' } } })
-
   t.end()
 })
