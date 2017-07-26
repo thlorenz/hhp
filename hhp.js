@@ -1,3 +1,5 @@
+'use strict'
+
 const stringUtil = require('./lib/util/string')
 
 /* eslint-disable camelcase */
