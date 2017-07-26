@@ -1,8 +1,5 @@
 const test = require('tape')
 const spok = require('spok')
-const spokUtl = require('./util/spok')
-const clean = spokUtl.clean
-const topic = spokUtl.topic
 const parse = require('../')
 
 const fs = require('fs')

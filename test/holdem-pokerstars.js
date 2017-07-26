@@ -491,13 +491,35 @@ test('\nHoldem.PokerStars: player collected before showdown', function(t) {
 test('\nHoldem.PokerStars: player with " " in name collected at showdown', function(t) {
   const txt = fs.readFileSync(path.join(holdem_ps, 'collected-on-showdown.txt'), 'utf8')
   const res = parse(txt)
-  // marco capile collected 3080 from pot
-  spok(t, res.showdown.pop(),
-    { $topic: 'last showdown action'
-    , player: 'marco capile'
-    , type: 'collect'
-    , amount: 3080
-    , metadata: { lineno: 41, raw: 'marco capile collected 3080 from pot' } })
+  spok(t, res.showdown,
+    [ { player: 'mister MH'
+     , type: 'show'
+     , card1: 'Qd'
+     , card2: 'Js'
+     , metadata:
+        { lineno: 39
+        , raw: 'mister MH: shows [Qd Js] (a pair of Jacks)' }
+     , desc: 'a pair of Jacks' }
+    , { player: 'marco capile'
+     , type: 'show'
+     , card1: 'Jc'
+     , card2: 'Kh'
+     , metadata:
+        { lineno: 40
+        , raw: 'marco capile: shows [Jc Kh] (a pair of Jacks - King kicker)' }
+     , desc: 'a pair of Jacks - King kicker' }
+    , { player: 'marco capile'
+     , type: 'collect'
+     , amount: 3080
+     , pot: null
+     , metadata: { lineno: 41, raw: 'marco capile collected 3080 from pot' } }
+    , { player: 'mister MH'
+     , type: 'finish'
+     , place: 28
+     , amount: null
+     , metadata:
+        { lineno: 42
+        , raw: 'mister MH finished the tournament in 28th place' } } ])
 
   t.end()
 })
