@@ -9,7 +9,7 @@ function inspect(obj, depth) {
 }
 /* eslint-ensable no-unused-vars */
 
-test('\nsummary: single pot with showed won,lost, folded with and without bets, and a full board', function(t) {
+test('\nPokerStars summary: single pot with showed won,lost, folded with and without bets, and a full board', function(t) {
   const lines = `
 Total pot 3111 | Rake 0
 Board [Jc Ks 6c 7c 4h]
