@@ -130,9 +130,10 @@ test('\nIgnition: sng tripleup', function(t) {
         , metadata:
            { lineno: 41
            , raw: 'UTG+4 : Return uncalled portion of bet 100' } }
-      , { player: 'UTG+4 :'
+      , { player: 'UTG+4'
         , type: 'collect'
         , amount: 210
+        , pot: null
         , metadata: { lineno: 43, raw: 'UTG+4 : Hand Result 210' } } ]
     , turn: []
     , river: []
@@ -177,6 +178,73 @@ test('\nIgnition: sng tripleup', function(t) {
         , card1: '9s'
         , card2: '3c'
         , metadata: { lineno: 22, raw: 'Dealer : Card dealt to a spot [9s 3c]' } } ]
+    , summary:
+      [ { type: 'pot'
+        , single: true
+        , amount: 210
+        , metadata: { lineno: 45, raw: 'Total Pot(210)' } }
+      , { type: 'folded'
+        , seatno: 7
+        , player: 'hero'
+        , position: 'sb'
+        , street: 'flop'
+        , bet: true
+        , metadata: { lineno: 47, raw: 'Seat+7: Small Blind Folded on the FLOP' } }
+      , { type: 'folded'
+        , seatno: 9
+        , player: 'Big Blind'
+        , position: 'bb'
+        , street: 'flop'
+        , bet: true
+        , metadata: { lineno: 48, raw: 'Seat+9: Big Blind Folded on the FLOP' } }
+      , { type: 'folded'
+        , seatno: 1
+        , player: 'UTG'
+        , position: ''
+        , street: 'flop'
+        , bet: true
+        , metadata: { lineno: 49, raw: 'Seat+1: UTG Folded on the FLOP' } }
+      , { type: 'folded'
+        , seatno: 8
+        , player: 'UTG+1'
+        , position: ''
+        , street: 'flop'
+        , bet: true
+        , metadata: { lineno: 50, raw: 'Seat+8: UTG+1 Folded on the FLOP' } }
+      , { type: 'folded'
+        , seatno: 6
+        , player: 'UTG+2'
+        , position: ''
+        , street: 'flop'
+        , bet: true
+        , metadata: { lineno: 51, raw: 'Seat+6: UTG+2 Folded on the FLOP' } }
+      , { type: 'folded'
+        , seatno: 3
+        , player: 'UTG+3'
+        , position: ''
+        , street: 'flop'
+        , bet: true
+        , metadata: { lineno: 52, raw: 'Seat+3: UTG+3 Folded on the FLOP' } }
+      , { type: 'collected'
+        , seatno: 4
+        , player: 'UTG+4'
+        , position: ''
+        , amount: 210
+        , metadata: { lineno: 53, raw: 'Seat+4: UTG+4 210 [Does not show]' } }
+      , { type: 'folded'
+        , seatno: 2
+        , player: 'UTG+5'
+        , position: ''
+        , street: 'flop'
+        , bet: true
+        , metadata: { lineno: 54, raw: 'Seat+2: UTG+5 Folded on the FLOP' } }
+      , { type: 'folded'
+        , seatno: 5
+        , player: 'Dealer'
+        , position: 'bu'
+        , street: 'flop'
+        , bet: true
+        , metadata: { lineno: 55, raw: 'Seat+5: Dealer Folded on the FLOP' } } ]
     , info:
       { room: 'ignition'
       , handid: '3548320887'
@@ -195,7 +263,7 @@ test('\nIgnition: sng tripleup', function(t) {
       , metadata:
          { lineno: 0
          , raw: 'Ignition Hand #3548320887: HOLDEM Tournament #18509313 TBL#1, Normal- Level 1 (10/20) - 2017-07-21 13:48:15' } }
-    , table: { tableno: 1 }
+    , table: { tableno: 1, maxseats: 9, button: 1 }
     , hero: 'hero'
     , holecards:
       { card1: '7c'

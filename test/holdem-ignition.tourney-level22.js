@@ -131,9 +131,10 @@ test('\nIgnition: tourney at level 22', function(t) {
         , metadata:
            { lineno: 37
            , raw: 'Dealer : Return uncalled portion of bet 6000' } }
-      , { player: 'Dealer :'
+      , { player: 'Dealer'
         , type: 'collect'
         , amount: 19800
+        , pot: null
         , metadata: { lineno: 39, raw: 'Dealer : Hand Result 19800' } } ]
     , flop: []
     , turn: []
@@ -174,6 +175,66 @@ test('\nIgnition: tourney at level 22', function(t) {
         , card1: '5c'
         , card2: 'Jc'
         , metadata: { lineno: 28, raw: 'UTG+4 : Card dealt to a spot [5c Jc]' } } ]
+    , summary:
+      [ { type: 'pot'
+        , single: true
+        , amount: 19800
+        , metadata: { lineno: 41, raw: 'Total Pot(19800)' } }
+      , { type: 'collected'
+        , seatno: 297
+        , player: 'Dealer'
+        , position: 'bu'
+        , amount: 19800
+        , metadata: { lineno: 42, raw: 'Seat+297: Dealer 19800 [Does not show]' } }
+      , { type: 'folded'
+        , seatno: 38
+        , player: 'hero'
+        , position: 'sb'
+        , street: 'flop'
+        , bet: true
+        , metadata: { lineno: 43, raw: 'Seat+38: Small Blind Folded on the FLOP' } }
+      , { type: 'folded'
+        , seatno: 169
+        , player: 'Big Blind'
+        , position: 'bb'
+        , street: 'flop'
+        , bet: true
+        , metadata: { lineno: 44, raw: 'Seat+169: Big Blind Folded on the FLOP' } }
+      , { type: 'folded'
+        , seatno: 133
+        , player: 'UTG'
+        , position: ''
+        , street: 'flop'
+        , bet: true
+        , metadata: { lineno: 45, raw: 'Seat+133: UTG Folded on the FLOP' } }
+      , { type: 'folded'
+        , seatno: 321
+        , player: 'UTG+1'
+        , position: ''
+        , street: 'flop'
+        , bet: true
+        , metadata: { lineno: 46, raw: 'Seat+321: UTG+1 Folded on the FLOP' } }
+      , { type: 'folded'
+        , seatno: 177
+        , player: 'UTG+2'
+        , position: ''
+        , street: 'flop'
+        , bet: true
+        , metadata: { lineno: 47, raw: 'Seat+177: UTG+2 Folded on the FLOP' } }
+      , { type: 'folded'
+        , seatno: 317
+        , player: 'UTG+3'
+        , position: ''
+        , street: 'flop'
+        , bet: true
+        , metadata: { lineno: 48, raw: 'Seat+317: UTG+3 Folded on the FLOP' } }
+      , { type: 'folded'
+        , seatno: 184
+        , player: 'UTG+4'
+        , position: ''
+        , street: 'flop'
+        , bet: true
+        , metadata: { lineno: 49, raw: 'Seat+184: UTG+4 Folded on the FLOP' } } ]
     , info:
       { room: 'ignition'
       , handid: '3549325520'
@@ -193,7 +254,7 @@ test('\nIgnition: tourney at level 22', function(t) {
          { lineno: 0
          , raw: 'Ignition Hand #3549325520: HOLDEM Tournament #18094253 TBL#34, Normal- Level 22 (3000/6000) - 2017-07-24 00:26:10' }
       , ante: 600 }
-    , table: { tableno: 34 }
+    , table: { tableno: 34, maxseats: 9, button: 1 }
     , hero: 'hero'
     , holecards:
       { card1: '2d'

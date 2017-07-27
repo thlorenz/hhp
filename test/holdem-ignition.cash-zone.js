@@ -121,7 +121,7 @@ test('\nIgnition: sng last hand headsup hero looses, also includes Ante and an A
       , { type: 'showed'
         , won: true
         , seatno: 1
-        , player: 'Big Blind'
+        , player: 'hero'
         , position: 'bb'
         , card1: 'Th'
         , card2: '3c'
@@ -191,7 +191,7 @@ test('\nIgnition: sng last hand headsup hero looses, also includes Ante and an A
       , currency: '$'
       , sb: 0.5
       , bb: 1 }
-    , table: { tableno: '875' }
+    , table: { tableno: '875', maxseats: 6, button: 1 }
     , hero: 'hero'
     , holecards:
       { card1: 'Th'

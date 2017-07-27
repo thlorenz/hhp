@@ -20,6 +20,7 @@ function inspect(obj, depth) {
 /* eslint-ensable no-unused-vars */
 
 test('\nIgnition: sng last hand headsup hero looses, also includes Ante and an Allin raise', function(t) {
+  ocat.log(res)
   spok(t, res,
     { seats:
       [ { seatno: 3
@@ -60,17 +61,76 @@ test('\nIgnition: sng last hand headsup hero looses, also includes Ante and an A
         , metadata: { lineno: 12, raw: 'Big Blind : Call 1050' } } ]
     , flop: []
     , turn: []
-    , river:
-      [ { player: 'Big Blind :'
-        , type: 'collect'
-        , amount: 3200
-        , metadata: { lineno: 18, raw: 'Big Blind : Hand Result 3200' } } ]
+    , river: []
     , showdown:
       [ { player: 'Big Blind'
         , type: 'reveal'
         , card1: 'Tc'
         , card2: 'As'
-        , metadata: { lineno: 9, raw: 'Big Blind : Card dealt to a spot [Tc As]' } } ]
+        , metadata: { lineno: 9, raw: 'Big Blind : Card dealt to a spot [Tc As]' } }
+      , { player: 'Big Blind'
+        , type: 'show'
+        , metadata:
+           { lineno: 16
+           , raw: 'Big Blind : Showdown [Td Tc 5s 5d As] (Two pair)' }
+        , desc: 'two pair'
+        , card1: 'Tc'
+        , card2: 'As' }
+      , { player: 'hero'
+        , type: 'show'
+        , metadata:
+           { lineno: 17
+           , raw: 'Dealer [ME] : Showdown [5s 5d Qd Td 9s] (One pair)' }
+        , desc: 'one pair'
+        , card1: '9s'
+        , card2: 'Qd' }
+      , { player: 'Big Blind'
+        , type: 'collect'
+        , amount: 3200
+        , pot: null
+        , metadata: { lineno: 18, raw: 'Big Blind : Hand Result 3200' } }
+      , { player: 'hero'
+        , type: 'finish'
+        , place: 2
+        , metadata:
+           { lineno: 19
+           , raw: 'Dealer [ME] : Ranking 2\nDealer [ME] : Prize Cash [$13.50]' }
+        , amount: 13.5 }
+      , { player: 'Big Blind'
+        , type: 'finish'
+        , place: 1
+        , metadata:
+           { lineno: 21
+           , raw: 'Big Blind : Ranking 1\nBig Blind : Prize Cash [$22.50]' }
+        , amount: 22.5 } ]
+    , summary:
+      [ { type: 'pot'
+        , single: true
+        , amount: 3200
+        , metadata: { lineno: 26, raw: 'Total Pot(3200)' } }
+      , { type: 'showed'
+        , won: true
+        , seatno: 3
+        , player: 'Big Blind'
+        , position: 'bb'
+        , card1: 'Tc'
+        , card2: 'As'
+        , amount: 3200
+        , description: 'Two pair'
+        , metadata:
+           { lineno: 28
+           , raw: 'Seat+3: Big Blind 3200  with Two pair [Tc As-Td Tc 5s 5d As]' } }
+      , { type: 'showed'
+        , won: false
+        , seatno: 2
+        , player: 'hero'
+        , position: 'bu'
+        , card1: '9s'
+        , card2: 'Qd'
+        , description: 'One pair'
+        , metadata:
+           { lineno: 29
+           , raw: 'Seat+2: Dealer lose with One pair [9s Qd-5s 5d Qd Td 9s]' } } ]
     , info:
       { room: 'ignition'
       , handid: '3549255643'
@@ -89,8 +149,9 @@ test('\nIgnition: sng last hand headsup hero looses, also includes Ante and an A
       , metadata:
          { lineno: 0
          , raw: 'Ignition Hand #3549255643: HOLDEM Tournament #18534183 TBL#1, Normal- Level 9 (250/500) - 2017-07-23 21:54:37' }
-      , ante: 50 }
-    , table: { tableno: 1 }
+      , ante: 50
+      , currency: '$' }
+    , table: { tableno: 1, maxseats: 6, button: 1 }
     , hero: 'hero'
     , holecards:
       { card1: '9s'
