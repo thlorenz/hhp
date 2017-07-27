@@ -23,7 +23,7 @@ test('\nIgnition: sng last hand headsup hero looses, also includes Ante and an A
   spok(t, res,
     { seats:
       [ { seatno: 1
-        , player: 'Big Blind [ME]'
+        , player: 'hero'
         , chips: 100
         , metadata: { lineno: 1, raw: 'Seat 1: Big Blind [ME] ($100 in chips)' } }
       , { seatno: 2
@@ -54,7 +54,7 @@ test('\nIgnition: sng last hand headsup hero looses, also includes Ante and an A
       , { player: 'hero'
         , type: 'bb'
         , amount: 1
-        , metadata: { lineno: 9, raw: 'Big Blind  [ME] : Big blind $1' } } ]
+        , metadata: { lineno: 9, raw: 'Big Blind [ME] : Big blind $1' } } ]
     , preflop:
       [ { player: 'UTG'
         , type: 'fold'
@@ -70,11 +70,7 @@ test('\nIgnition: sng last hand headsup hero looses, also includes Ante and an A
         , metadata: { lineno: 24, raw: 'Dealer : Folds' } }
       , { player: 'Small Blind'
         , type: 'fold'
-        , metadata: { lineno: 25, raw: 'Small Blind : Folds' } }
-      , { player: 'Big Blind  [ME] :'
-        , type: 'collect'
-        , amount: 1.5
-        , metadata: { lineno: 28, raw: 'Big Blind  [ME] : Hand result $1.50' } } ]
+        , metadata: { lineno: 25, raw: 'Small Blind : Folds' } } ]
     , flop: []
     , turn: []
     , river: []
@@ -105,7 +101,78 @@ test('\nIgnition: sng last hand headsup hero looses, also includes Ante and an A
         , card2: 'Qs'
         , metadata:
            { lineno: 16
-           , raw: 'Small Blind : Card dealt to a spot [4c Qs]' } } ]
+           , raw: 'Small Blind : Card dealt to a spot [4c Qs]' } }
+      , { player: 'hero'
+        , type: 'show'
+        , metadata: { lineno: 27, raw: 'Big Blind [ME] : Showdown(High Card)' }
+        , desc: 'high card'
+        , card1: 'Th'
+        , card2: '3c' }
+      , { player: 'hero'
+        , type: 'collect'
+        , amount: 1.5
+        , pot: null
+        , metadata: { lineno: 28, raw: 'Big Blind [ME] : Hand result $1.50' } } ]
+    , summary:
+      [ { type: 'pot'
+        , single: true
+        , amount: 1.5
+        , metadata: { lineno: 37, raw: 'Total Pot($1.50)' } }
+      , { type: 'showed'
+        , won: true
+        , seatno: 1
+        , player: 'Big Blind'
+        , position: 'bb'
+        , card1: 'Th'
+        , card2: '3c'
+        , amount: 1.5
+        , description: 'High Card'
+        , metadata:
+           { lineno: 38
+           , raw: 'Seat+1: Big Blind $1.50  with High Card [Th 3c]' } }
+      , { type: 'folded'
+        , seatno: 2
+        , player: 'UTG'
+        , position: ''
+        , street: 'preflop'
+        , bet: true
+        , metadata: { lineno: 39, raw: 'Seat+2: UTG Folded before the FLOP' } }
+      , { type: 'folded'
+        , seatno: 3
+        , player: 'UTG+1'
+        , position: ''
+        , street: 'preflop'
+        , bet: true
+        , metadata: { lineno: 40, raw: 'Seat+3: UTG+1 Folded before the FLOP' } }
+      , { type: 'showed'
+        , won: false
+        , seatno: 4
+        , player: 'UTG+2'
+        , position: ''
+        , card1: 'Js'
+        , card2: '3s'
+        , description: 'High Card'
+        , metadata: { lineno: 41, raw: 'Seat+4: UTG+2 lost with High Card [Js 3s]' } }
+      , { type: 'showed'
+        , won: false
+        , seatno: 5
+        , player: 'Dealer'
+        , position: 'bu'
+        , card1: 'Jc'
+        , card2: '9d'
+        , description: 'High Card'
+        , metadata:
+           { lineno: 42
+           , raw: 'Seat+5: Dealer lost with High Card [Jc 9d]' } }
+      , { type: 'folded'
+        , seatno: 6
+        , player: 'Small Blind'
+        , position: 'sb'
+        , street: 'preflop'
+        , bet: true
+        , metadata:
+           { lineno: 43
+           , raw: 'Seat+6: Small Blind Folded before the FLOP' } } ]
     , info:
       { room: 'ignition'
       , handid: '3372762461'
@@ -121,6 +188,7 @@ test('\nIgnition: sng last hand headsup hero looses, also includes Ante and an A
       , metadata:
          { lineno: 0
          , raw: 'Ignition Hand #3372762461  Zone Poker ID#875 HOLDEMZonePoker No Limit - 2016-10-16 13:55:35' }
+      , currency: '$'
       , sb: 0.5
       , bb: 1 }
     , table: { tableno: '875' }
@@ -130,6 +198,6 @@ test('\nIgnition: sng last hand headsup hero looses, also includes Ante and an A
       , card2: '3c'
       , metadata:
          { lineno: 11
-         , raw: 'Big Blind  [ME] : Card dealt to a spot [Th 3c]' } } })
+         , raw: 'Big Blind [ME] : Card dealt to a spot [Th 3c]' } } })
   t.end()
 })
