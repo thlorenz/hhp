@@ -1,0 +1,57 @@
+Ignition Hand #3549249421: HOLDEM Tournament #18094253 TBL#34, Normal- Level 7 (100/200) - 2017-07-23 21:42:38
+Seat 240: Dealer (25,825 in chips)
+Seat 38: Small Blind [ME] (10,989 in chips)
+Seat 229: Big Blind (9,950 in chips)
+Seat 209: UTG (12,528 in chips)
+Seat 284: UTG+1 (10,000 in chips)
+Seat 90: UTG+2 (9,335 in chips)
+Seat 199: UTG+3 (8,969 in chips)
+Seat 219: UTG+4 (9,525 in chips)
+Seat 40: UTG+5 (8,100 in chips)
+Dealer : Set dealer [1] 
+Small Blind [ME] : Small blind 100 
+Big Blind : Big blind 200 
+*** HOLE CARDS ***
+Dealer : Card dealt to a spot [Jd Ts] 
+Small Blind [ME] : Card dealt to a spot [Qh 8c] 
+Big Blind : Card dealt to a spot [Kc Ah] 
+UTG : Card dealt to a spot [8d Jh] 
+UTG+1 : Card dealt to a spot [As Ac] 
+UTG+2 : Card dealt to a spot [7s Td] 
+UTG+3 : Card dealt to a spot [9h 9s] 
+UTG+4 : Card dealt to a spot [5h Qc] 
+UTG+5 : Card dealt to a spot [2c 3s] 
+UTG : Folds
+UTG+1 : Raises 600 to 600
+UTG+2 : Folds
+UTG+3 : Call 600 
+UTG+4 : Folds
+UTG+5 : Folds
+Dealer : Call 600 
+Small Blind [ME] : Folds
+Big Blind : All-in(raise) 9750 to 9950
+UTG+1 : Call 9350 
+UTG+3 : All-in 8369 
+Dealer : Folds
+*** FLOP *** [Qd Tc Jc]
+*** TURN *** [Qd Tc Jc] [6d]
+*** RIVER *** [Qd Tc Jc 6d] [6c]
+Big Blind : Showdown [Ah Kc Qd Jc Tc] (Straight)
+UTG+1 : Showdown [As Ac 6d 6c Qd] (Two pair)
+UTG+3 : Showdown [9s 9h 6d 6c Qd] (Two pair)
+Big Blind : Hand Result-Side Pot 1962 
+Big Blind : Hand Result 27607 
+UTG+3 : Ranking 245 
+UTG+3 : Stand
+*** SUMMARY ***
+Total Pot(29569)
+Board [Qd Tc Jc 6d 6c]
+Seat+240: Dealer Folded on the FLOP
+Seat+38: Small Blind Folded on the FLOP
+Seat+229: Big Blind 29569  with Straight [Kc Ah-Ah Kc Qd Jc Tc]  
+Seat+209: UTG Folded on the FLOP
+Seat+284: UTG+1 lose with Two pair [As Ac-As Ac 6d 6c Qd]  
+Seat+90: UTG+2 Folded on the FLOP
+Seat+199: UTG+3 lose with Two pair [9h 9s-9s 9h 6d 6c Qd]  
+Seat+219: UTG+4 Folded on the FLOP
+Seat+40: UTG+5 Folded on the FLOP
