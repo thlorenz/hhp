@@ -28,8 +28,9 @@ function getLines(txt) {
  * @name parse
  * @function
  * @param {string} input the textual representation of one poker hand as written to the HandHistory folder
- * @param {object} opts various options
- * @param {boolean} opts.infoOnly denotes that only the header line of the hand is parsed and only the info object returned
+ * @param {object=} opts various options
+ * @param {boolean=} opts.infoOnly denotes that only the header line of the hand is parsed and only the info object returned
+ * @param {string=} opts.buyinFile file name overrides buyin for rooms that don't include it in the history like Ignition
  * @return {object} representation of the given hand to be used as input for other tools like hha
  */
 exports = module.exports = function parse(input, opts) {
