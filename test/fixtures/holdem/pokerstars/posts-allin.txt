@@ -1,0 +1,55 @@
+PokerStars Hand #159581842724: Tournament #1689829479, $3.19+$0.31 USD Hold'em No Limit - Level I (10/20) - 2016/10/06 22:53:35 ET
+Table '1689829479 2' 9-max Seat #8 is the button
+Seat 1: norgas69 (14 in chips)
+Seat 3: renniweg (1229 in chips)
+Seat 4: p_coxinha (1144 in chips)
+Seat 5: MasterQkiu (2641 in chips)
+Seat 6: Oterbach (1825 in chips)
+Seat 7: SilveradoSP (1389 in chips)
+Seat 8: trips1126 (2310 in chips)
+Seat 9: grmpjb (1379 in chips)
+norgas69: posts the ante 3
+renniweg: posts the ante 3
+p_coxinha: posts the ante 3
+MasterQkiu: posts the ante 3
+Oterbach: posts the ante 3
+SilveradoSP: posts the ante 3
+trips1126: posts the ante 3
+grmpjb: posts the ante 3
+grmpjb: posts small blind 10
+norgas69: posts big blind 11 and is all-in
+*** HOLE CARDS ***
+Dealt to renniweg [4c Qd]
+renniweg: folds
+p_coxinha: folds
+MasterQkiu: calls 20
+Oterbach: folds
+SilveradoSP: folds
+trips1126: raises 160 to 180
+grmpjb: folds
+MasterQkiu: calls 160
+*** FLOP *** [5s Kh Th]
+MasterQkiu: checks
+trips1126: bets 300
+MasterQkiu: raises 2158 to 2458 and is all-in
+trips1126: folds
+Uncalled bet (2158) returned to MasterQkiu
+*** TURN *** [5s Kh Th] [2h]
+*** RIVER *** [5s Kh Th 2h] [3s]
+*** SHOW DOWN ***
+MasterQkiu: shows [Kd Ts] (two pair, Kings and Tens)
+MasterQkiu collected 938 from side pot
+norgas69: shows [9h As] (high card Ace)
+MasterQkiu collected 67 from main pot
+norgas69 finished the tournament in 42nd place
+*** SUMMARY ***
+Total pot 1005 Main pot 67. Side pot 938. | Rake 0
+Board [5s Kh Th 2h 3s]
+Seat 1: norgas69 (big blind) showed [9h As] and lost with high card Ace
+Seat 3: renniweg folded before Flop (didn't bet)
+Seat 4: p_coxinha folded before Flop (didn't bet)
+Seat 5: MasterQkiu showed [Kd Ts] and won (1005) with two pair, Kings and Tens
+Seat 6: Oterbach folded before Flop (didn't bet)
+Seat 7: SilveradoSP folded before Flop (didn't bet)
+Seat 8: trips1126 (button) folded on the Flop
+Seat 9: grmpjb (small blind) folded before Flop
