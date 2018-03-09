@@ -1,0 +1,53 @@
+PokerStars Hand #183617887084: Tournament #2244109429, $0.23+$0.02 USD Hold'em No Limit - Level X (300/600) - 2018/03/09 23:37:43 CET [2018/03/09 17:37:43 ET]
+Table '2244109429 4' 9-max Seat #2 is the button
+Seat 1: barao200 (22907 in chips) 
+Seat 2: ZOVIZIKAS (3355 in chips) 
+Seat 3: jeanvictor28 (12181 in chips) 
+Seat 4: DorflexBr (4521 in chips) 
+Seat 5: Fandorin2001 (3199 in chips) 
+Seat 6: HERNPETRO (6708 in chips) 
+Seat 7: puzzels6 (3676 in chips) is sitting out
+Seat 8: indi9os (10953 in chips) 
+barao200: posts the ante 50
+ZOVIZIKAS: posts the ante 50
+jeanvictor28: posts the ante 50
+DorflexBr: posts the ante 50
+Fandorin2001: posts the ante 50
+HERNPETRO: posts the ante 50
+puzzels6: posts the ante 50
+indi9os: posts the ante 50
+jeanvictor28: posts small blind 300
+DorflexBr: posts big blind 600
+*** HOLE CARDS ***
+Fandorin2001: folds 
+HERNPETRO: folds 
+puzzels6: folds 
+indi9os: raises 720 to 1320
+barao200: calls 1320
+ZOVIZIKAS: folds 
+jeanvictor28: folds 
+DorflexBr: folds 
+*** FLOP *** [Kh 2d 2c]
+indi9os: checks 
+barao200: checks 
+*** TURN *** [Kh 2d 2c] [Jc]
+indi9os: bets 1200
+barao200: calls 1200
+*** RIVER *** [Kh 2d 2c Jc] [6c]
+indi9os: checks 
+barao200: bets 2663
+indi9os: folds 
+Uncalled bet (2663) returned to barao200
+barao200 collected 6340 from pot
+barao200: doesn't show hand 
+*** SUMMARY ***
+Total pot 6340 | Rake 0 
+Board [Kh 2d 2c Jc 6c]
+Seat 1: barao200 collected (6340)
+Seat 2: ZOVIZIKAS (button) folded before Flop (didn't bet)
+Seat 3: jeanvictor28 (small blind) folded before Flop
+Seat 4: DorflexBr (big blind) folded before Flop
+Seat 5: Fandorin2001 folded before Flop (didn't bet)
+Seat 6: HERNPETRO folded before Flop (didn't bet)
+Seat 7: puzzels6 folded before Flop (didn't bet)
+Seat 8: indi9os folded on the River

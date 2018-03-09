@@ -537,3 +537,37 @@ test('\nHoldem.PokerStars: player all-in vs. smaller stack has uncalled bet retu
 
   t.end()
 })
+
+test('\nHoldem.PokerStars: SNG timezone Costa Rica', function(t) {
+  // PokerStars Hand #183617887084: Tournament #2244109429, $0.23+$0.02 USD
+  // Hold'em No Limit - Level X (300/600) - 2018/03/09 23:37:43 CET [2018/03/09 17:37:43 ET]
+  const txt = fs.readFileSync(path.join(holdem_ps, 'timezone-costarica.sng.txt'), 'utf8')
+  const res = parse(txt)
+  spok(t, res.info,
+    { room: 'pokerstars'
+    , handid: '183617887084'
+    , currency: '$'
+    , pokertype: 'holdem'
+    , limit: 'nolimit'
+    , sb: 300
+    , bb: 600
+    , year: 2018
+    , month: 3
+    , day: 9
+    , hour: 23
+    , min: 37
+    , sec: 43
+    , timezone: 'CET'
+    , gameno: '2244109429'
+    , level: 'x'
+    , gametype: 'tournament'
+    , metadata:
+      { lineno: 0
+      , raw: 'PokerStars Hand #183617887084: Tournament #2244109429, $0.23+$0.02 USD Hold\'em No Limit - Level X (300/600) - 2018/03/09 23:37:43 CET [2018/03/09 17:37:43 ET]' }
+    , donation: 0.23
+    , rake: 0.02
+    , buyin: 0.25
+    , ante: 50 })
+
+  t.end()
+})
