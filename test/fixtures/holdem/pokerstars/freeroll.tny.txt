@@ -1,0 +1,36 @@
+PokerStars Hand #183617828093: Tournament #2244219929, Freeroll  Hold'em No Limit - Level III (50/100) - 2018/03/09 23:36:32 CET [2018/03/09 17:36:32 ET]
+Table '2244219929 1' 9-max Seat #3 is the button
+Seat 3: myakishev94 (763 in chips) 
+Seat 5: truefcbfan (1113 in chips) 
+Seat 6: babawest (2242 in chips) 
+Seat 9: MARIUSZ_648 (382 in chips) 
+myakishev94: posts the ante 10
+truefcbfan: posts the ante 10
+babawest: posts the ante 10
+MARIUSZ_648: posts the ante 10
+truefcbfan: posts small blind 50
+babawest: posts big blind 100
+*** HOLE CARDS ***
+MARIUSZ_648: folds 
+myakishev94: calls 100
+truefcbfan: folds 
+babawest: checks 
+*** FLOP *** [Qs 5s Ts]
+babawest: checks 
+myakishev94: checks 
+*** TURN *** [Qs 5s Ts] [Ad]
+babawest: checks 
+myakishev94: checks 
+*** RIVER *** [Qs 5s Ts Ad] [6h]
+babawest: bets 194
+myakishev94: folds 
+Uncalled bet (194) returned to babawest
+babawest collected 290 from pot
+babawest: doesn't show hand 
+*** SUMMARY ***
+Total pot 290 | Rake 0 
+Board [Qs 5s Ts Ad 6h]
+Seat 3: myakishev94 (button) folded on the River
+Seat 5: truefcbfan (small blind) folded before Flop
+Seat 6: babawest (big blind) collected (290)
+Seat 9: MARIUSZ_648 folded before Flop (didn't bet)

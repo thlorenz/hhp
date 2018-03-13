@@ -571,3 +571,36 @@ test('\nHoldem.PokerStars: SNG timezone Costa Rica', function(t) {
 
   t.end()
 })
+
+test('\nHoldem.PokerStars: Tourney freeroll, CET', function(t) {
+  // PokerStars Hand #183617828093: Tournament #2244219929,
+  // Freeroll  Hold'em No Limit - Level III (50/100) - 2018/03/09 23:36:32 CET [2018/03/09 17:36:32 ET]
+  const txt = fs.readFileSync(path.join(holdem_ps, 'freeroll.tny.txt'), 'utf8')
+  const res = parse(txt)
+  spok(t, res.info,
+    { room: 'pokerstars'
+    , handid: '183617828093'
+    , currency: '$'
+    , pokertype: 'holdem'
+    , limit: 'nolimit'
+    , sb: 50
+    , bb: 100
+    , year: 2018
+    , month: 3
+    , day: 9
+    , hour: 23
+    , min: 36
+    , sec: 32
+    , timezone: 'CET'
+    , gameno: '2244219929'
+    , level: 'iii'
+    , gametype: 'tournament'
+    , metadata:
+      { lineno: 0
+      , raw: 'PokerStars Hand #183617828093: Tournament #2244219929, $0.00+$0.00 USD  Hold\'em No Limit - Level III (50/100) - 2018/03/09 23:36:32 CET [2018/03/09 17:36:32 ET]' }
+    , donation: 0
+    , rake: 0
+    , buyin: 0
+    , ante: 10 })
+  t.end()
+})
