@@ -1,6 +1,8 @@
+'use strict'
+
 const test = require('tape')
 const spok = require('spok')
-const parse = require('../')
+const { parseHand } = require('../')
 
 const fs = require('fs')
 const path = require('path')
@@ -8,20 +10,9 @@ const fixtures = path.join(__dirname, 'fixtures')
 /* eslint-disable camelcase */
 const holdem_ps = path.join(fixtures, 'holdem', 'pokerstars')
 
-/* eslint-disable no-unused-vars */
-const ocat = require('./util/ocat')
-function insp(obj, depth) {
-  console.error(require('util').inspect(obj, false, depth || 10, false))
-}
-function inspect(obj, depth) {
-  console.error(require('util').inspect(obj, false, depth || 5, true))
-}
-const save = require('./util/save')
-/* eslint-ensable no-unused-vars */
-
 test('\nHoldem.PokerStars: Zoom Cash from 2017', function(t) {
   const txt = fs.readFileSync(path.join(holdem_ps, 'cash.zoom.2017.txt'), 'utf8')
-  const res = parse(txt)
+  const res = parseHand(txt)
 
   spok(t, res,
     { seats:
@@ -222,7 +213,7 @@ test('\nHoldem.PokerStars: Zoom Cash from 2017', function(t) {
 
 test('\nHoldem.PokerStars: Cash from 2010', function(t) {
   const txt = fs.readFileSync(path.join(holdem_ps, 'cash.2010.txt'), 'utf8')
-  const res = parse(txt)
+  const res = parseHand(txt)
 
   spok(t, res,
     { seats:
@@ -438,7 +429,7 @@ test('\nHoldem.PokerStars: Cash from 2010', function(t) {
 
 test('\nHoldem.PokerStars: cash mucked cards', function(t) {
   const txt = fs.readFileSync(path.join(holdem_ps, 'cash.zoom.2017.muck-cards.txt'), 'utf8')
-  const res = parse(txt)
+  const res = parseHand(txt)
 
   spok(t, res.summary,
     [ { type: 'pot'
@@ -499,7 +490,7 @@ test('\nHoldem.PokerStars: cash mucked cards', function(t) {
 
 test('\nHoldem.PokerStars: playernames have parentheses', function(t) {
   const txt = fs.readFileSync(path.join(holdem_ps, 'cash.zoom.2017.parens-in-playername.txt'), 'utf8')
-  const res = parse(txt)
+  const res = parseHand(txt)
 
   spok(t, res,
     { seats:

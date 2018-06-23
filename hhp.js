@@ -25,7 +25,7 @@ function getLines(txt) {
  * is parsed into [this object
  * representation](https://github.com/thlorenz/hha/blob/master/test/fixtures/holdem/actiononall.json).
  *
- * @name parse
+ * @name parseHand
  * @function
  * @param {string} input the textual representation of one poker hand as written to the HandHistory folder
  * @param {object=} opts various options
@@ -33,7 +33,7 @@ function getLines(txt) {
  * @param {string=} opts.buyinFile file name overrides buyin for rooms that don't include it in the history like Ignition
  * @return {object} representation of the given hand to be used as input for other tools like hha
  */
-exports = module.exports = function parse(input, opts) {
+function parseHand(input, opts) {
   const lines = Array.isArray(input) ? input : getLines(input).filter(stringUtil.emptyLine)
   if (holdem_ps.canParse(lines)) return holdem_ps.parse(lines, opts)
   if (holdem_ig.canParse(lines)) return holdem_ig.parse(lines, opts)
@@ -47,7 +47,7 @@ exports = module.exports = function parse(input, opts) {
  * @param {string} txt the text containing the hands
  * @return {Array.<Array>} an array of hands, each hand split into lines
  */
-exports.extractHands = function extractHands(txt) {
+function extractHands(txt) {
   const lines = getLines(txt)
   const hands = []
   var hand = []
@@ -68,4 +68,28 @@ exports.extractHands = function extractHands(txt) {
     }
   }
   return hands
+}
+
+function parseHands(txt, opts) {
+  const hands = extractHands(txt)
+  const parsedHands = []
+  const errors = []
+  for (var i = 0; i < hands.length; i++) {
+    try {
+      const parsedHand = parseHand(hands[i], opts)
+      if (parsedHand == null) {
+        throw new Error(`Parsing hand with id ${hands[i].info.handid} returned null`)
+      }
+      parsedHands.push(parsedHand)
+    } catch (err) {
+      errors.push(err)
+    }
+  }
+  return { parsedHands, errors }
+}
+
+module.exports = {
+    parseHand
+  , parseHands
+  , extractHands
 }

@@ -1,9 +1,11 @@
+'use strict'
+
 const test = require('tape')
 const spok = require('spok')
 const spokUtl = require('./util/spok')
 const clean = spokUtl.clean
 const topic = spokUtl.topic
-const parse = require('../')
+const { parseHand } = require('../')
 
 const fs = require('fs')
 const path = require('path')
@@ -11,20 +13,9 @@ const fixtures = path.join(__dirname, 'fixtures')
 /* eslint-disable camelcase */
 const holdem_ps = path.join(fixtures, 'holdem', 'pokerstars')
 
-/* eslint-disable no-unused-vars */
-const ocat = require('./util/ocat')
-function insp(obj, depth) {
-  console.error(require('util').inspect(obj, false, depth || 10, false))
-}
-function inspect(obj, depth) {
-  console.error(require('util').inspect(obj, false, depth || 5, true))
-}
-const save = require('./util/save')
-/* eslint-ensable no-unused-vars */
-
 test('\nHoldem.PokerStars: action on all streets', function(t) {
   const txt = fs.readFileSync(path.join(holdem_ps, 'actiononall.txt'), 'utf8')
-  const res = parse(txt)
+  const res = parseHand(txt)
 
   spok(t, res,
     { seats:
@@ -227,7 +218,7 @@ test('\nHoldem.PokerStars: action on all streets', function(t) {
 
 test('\nHoldem.PokerStars: all-in preflop', function(t) {
   const txt = fs.readFileSync(path.join(holdem_ps, 'allin-preflop.txt'), 'utf8')
-  const res = parse(txt)
+  const res = parseHand(txt)
 
   spok(t, res,
     { seats:
@@ -433,7 +424,7 @@ test('\nHoldem.PokerStars: all-in preflop', function(t) {
 
 test('\nHoldem.PokerStars: call all-in', function(t) {
   const txt = fs.readFileSync(path.join(holdem_ps, 'call-allin.txt'), 'utf8')
-  const res = parse(txt)
+  const res = parseHand(txt)
   // ensure we correctly detect all-in for call and raise which happened on the flop for this hand
   spok(t, clean(res.flop), topic('flop',
     [ { player: 'DmelloH'
@@ -456,7 +447,7 @@ test('\nHoldem.PokerStars: call all-in', function(t) {
 
 test('\nHoldem.PokerStars: player sitting out', function(t) {
   const txt = fs.readFileSync(path.join(holdem_ps, 'player-sitting-out.txt'), 'utf8')
-  const res = parse(txt)
+  const res = parseHand(txt)
   const players = res.seats.map(x => x.player)
   // UP.itAA007 is sitting out, make sure he his include in the seats
   spok(t, players, topic('seats.player',
@@ -475,7 +466,7 @@ test('\nHoldem.PokerStars: player sitting out', function(t) {
 
 test('\nHoldem.PokerStars: player collected before showdown', function(t) {
   const txt = fs.readFileSync(path.join(holdem_ps, 'collect-on-flop.txt'), 'utf8')
-  const res = parse(txt)
+  const res = parseHand(txt)
   // trips1126 collected 97 during flop
   const lastFlopAction = res.flop.pop()
   spok(t, lastFlopAction,
@@ -490,7 +481,7 @@ test('\nHoldem.PokerStars: player collected before showdown', function(t) {
 
 test('\nHoldem.PokerStars: player with " " in name collected at showdown', function(t) {
   const txt = fs.readFileSync(path.join(holdem_ps, 'collected-on-showdown.txt'), 'utf8')
-  const res = parse(txt)
+  const res = parseHand(txt)
   spok(t, res.showdown,
     [ { player: 'mister MH'
      , type: 'show'
@@ -526,7 +517,7 @@ test('\nHoldem.PokerStars: player with " " in name collected at showdown', funct
 
 test('\nHoldem.PokerStars: player all-in vs. smaller stack has uncalled bet returned', function(t) {
   const txt = fs.readFileSync(path.join(holdem_ps, 'uncalled-bet-returned.txt'), 'utf8')
-  const res = parse(txt)
+  const res = parseHand(txt)
   // Uncalled bet (325) returned to GuiTrettel
   spok(t, res.turn.pop(),
     { $topic: 'last turn action'
@@ -542,7 +533,7 @@ test('\nHoldem.PokerStars: SNG timezone Costa Rica', function(t) {
   // PokerStars Hand #183617887084: Tournament #2244109429, $0.23+$0.02 USD
   // Hold'em No Limit - Level X (300/600) - 2018/03/09 23:37:43 CET [2018/03/09 17:37:43 ET]
   const txt = fs.readFileSync(path.join(holdem_ps, 'timezone-costarica.sng.txt'), 'utf8')
-  const res = parse(txt)
+  const res = parseHand(txt)
   spok(t, res.info,
     { room: 'pokerstars'
     , handid: '183617887084'
@@ -576,7 +567,7 @@ test('\nHoldem.PokerStars: Tourney freeroll, CET', function(t) {
   // PokerStars Hand #183617828093: Tournament #2244219929,
   // Freeroll  Hold'em No Limit - Level III (50/100) - 2018/03/09 23:36:32 CET [2018/03/09 17:36:32 ET]
   const txt = fs.readFileSync(path.join(holdem_ps, 'freeroll.tny.txt'), 'utf8')
-  const res = parse(txt)
+  const res = parseHand(txt)
   spok(t, res.info,
     { room: 'pokerstars'
     , handid: '183617828093'

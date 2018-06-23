@@ -1,13 +1,8 @@
+'use strict'
+
 const spok = require('spok')
 const test = require('tape')
 const create = require('../lib/holdem/pokerstars').create
-
-/* eslint-disable no-unused-vars */
-const ocat = require('./util/ocat')
-function inspect(obj, depth) {
-  console.error(require('util').inspect(obj, false, depth || 5, true))
-}
-/* eslint-ensable no-unused-vars */
 
 test('\nsummary: cash single pot with rake, won, lost, folded with and without bets, mucked and a full board', function(t) {
   const lines = `

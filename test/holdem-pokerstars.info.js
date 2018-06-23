@@ -1,24 +1,15 @@
+'use strict'
+
 const test = require('tape')
 const spok = require('spok')
-const parse = require('../')
+const { parseHand } = require('../')
 const opts = { infoOnly: true }
-
-/* eslint-disable no-unused-vars */
-const ocat = require('./util/ocat')
-function insp(obj, depth) {
-  console.error(require('util').inspect(obj, false, depth || 10, false))
-}
-function inspect(obj, depth) {
-  console.error(require('util').inspect(obj, false, depth || 5, true))
-}
-const save = require('./util/save')
-/* eslint-ensable no-unused-vars */
 
 test('\npokerstars: tournament info 2017', function(t) {
   const txt = 'PokerStars Hand #164141909042: Tournament #1783636369, ' +
               '$3.13+$0.37 USD Hold\'em No Limit - Level I (10/20) - ' +
               '2017/01/06 14:44:10 ET'
-  const info = parse(txt, opts)
+  const info = parseHand(txt, opts)
   spok(t, info,
     { room: 'pokerstars'
     , handid: '164141909042'
@@ -50,7 +41,7 @@ test('\npokerstars: tournament info 2016', function(t) {
   const txt = 'PokerStars Hand #149651992548: Tournament #1495192630, ' +
               '$0.91+$0.09 USD Hold\'em No Limit - Level XI (400/800) - ' +
               '2016/03/01 1:29:41 ET'
-  const info = parse(txt, opts)
+  const info = parseHand(txt, opts)
   spok(t, info,
     { room: 'pokerstars'
     , handid: '149651992548'
@@ -82,7 +73,7 @@ test('\npokerstars: tournament info 2008', function(t) {
   const txt = 'PokerStars Game #23371891311: Tournament #130326981, ' +
               '$10+$1 Hold\'em No Limit - Level I (10/20) - ' +
               '2008/12/29 14:33:21 ET'
-  const info = parse(txt, opts)
+  const info = parseHand(txt, opts)
   spok(t, info,
     { room: 'pokerstars'
     , handid: '23371891311'
@@ -114,7 +105,7 @@ test('\npokerstars: CG Zoom info 2017', function(t) {
   const txt = 'PokerStars Zoom Hand #164181769033:  ' +
               'Hold\'em No Limit ($0.02/$0.05) - ' +
               '2017/01/07 9:48:34 ET'
-  const info = parse(txt, opts)
+  const info = parseHand(txt, opts)
   spok(t, info,
     { room: 'pokerstars'
     , handid: '164181769033'

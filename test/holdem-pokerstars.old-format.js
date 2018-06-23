@@ -2,7 +2,7 @@
 
 const test = require('tape')
 const spok = require('spok')
-const parse = require('../')
+const { parseHand } = require('../')
 
 const fs = require('fs')
 const path = require('path')
@@ -10,20 +10,9 @@ const fixtures = path.join(__dirname, 'fixtures')
 /* eslint-disable camelcase */
 const holdem_ps = path.join(fixtures, 'holdem', 'pokerstars')
 
-/* eslint-disable no-unused-vars */
-const ocat = require('./util/ocat')
-function insp(obj, depth) {
-  console.error(require('util').inspect(obj, false, depth || 10, false))
-}
-function inspect(obj, depth) {
-  console.error(require('util').inspect(obj, false, depth || 5, true))
-}
-const save = require('./util/save')
-/* eslint-ensable no-unused-vars */
-
 test('\nparses 2008 tournament', function(t) {
   const txt = fs.readFileSync(path.join(holdem_ps, '2008-tournament.txt'), 'utf8')
-  const res = parse(txt)
+  const res = parseHand(txt)
 
   spok(t, res.info,
     { $topic: 'hand info'

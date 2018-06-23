@@ -1,6 +1,6 @@
 const spok = require('spok')
 const test = require('tape')
-const parse = require('../')
+const { parseHand } = require('../')
 
 const fs = require('fs')
 const path = require('path')
@@ -10,14 +10,7 @@ const fixtures = path.join(__dirname, 'fixtures')
 const holdem_ig = path.join(fixtures, 'holdem', 'ignition')
 
 const txt = fs.readFileSync(path.join(holdem_ig, 'sng-winning-last.txt'), 'utf8')
-const res = parse(txt)
-
-/* eslint-disable no-unused-vars */
-const ocat = require('./util/ocat')
-function inspect(obj, depth) {
-  console.error(require('util').inspect(obj, false, depth || 5, true))
-}
-/* eslint-ensable no-unused-vars */
+const res = parseHand(txt)
 
 test('\nIgnition: sng last hand headsup hero looses, also includes Ante and an Allin raise', function(t) {
   spok(t, res,

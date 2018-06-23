@@ -1,13 +1,8 @@
+'use strict'
+
 const spok = require('spok')
 const test = require('tape')
 const create = require('../lib/holdem/ignition').create
-
-/* eslint-disable no-unused-vars */
-const ocat = require('./util/ocat')
-function inspect(obj, depth) {
-  console.error(require('util').inspect(obj, false, depth || 5, true))
-}
-/* eslint-ensable no-unused-vars */
 
 test('\nignition showdown: show cards and player finished', function(t) {
   const lines = `

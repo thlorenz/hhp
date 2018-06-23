@@ -15,8 +15,8 @@
   "homepage": "https://github.com/thlorenz/hhp",
   "dependencies": {},
   "devDependencies": {
-    "ocat": "~0.1.0",
-    "spok": "~0.8.1",
+    "ocat": "~0.2.1",
+    "spok": "~0.9.1",
     "tape": "~4.4.0"
   },
   "keywords": [],
@@ -30,6 +30,6 @@
     "url": "https://github.com/thlorenz/hhp/blob/master/LICENSE"
   },
   "engine": {
-    "node": ">=0.8"
+    "node": ">=6"
   }
 }
