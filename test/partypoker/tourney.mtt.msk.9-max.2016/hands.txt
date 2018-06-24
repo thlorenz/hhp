@@ -1,0 +1,48 @@
+***** Hand History for Game 15549114547 *****
+NL Texas Hold'em $215 USD Buy-in Trny:128730277 Level:12  Blinds-Antes(1 200/2 400 -400) - Monday, September 26, 01:30:41 MSK 2016
+Table Powerfest #193 - Main Event $500,000 Gtd (128730277) Table #83 (Real Money)
+Seat 5 is the button
+Total number of players : 9/9
+Seat 6: Achileus34 ( 63,222 )
+Seat 8: Alex0876 ( 107,844 )
+Seat 9: ChickAndChipS ( 180,112 )
+Seat 7: Corlusion ( 205,081 )
+Seat 1: DiSTEFANO_ ( 61,490 )
+Seat 4: DiggErr555 ( 53,728 )
+Seat 5: KatozaForAll ( 47,649 )
+Seat 2: PokerPalvo1499 ( 80,022 )
+Seat 3: ihadafeeling ( 115,918 )
+Trny:128730277 Level:12
+Blinds-Antes(1 200/2 400 -400)
+DiSTEFANO_ posts ante [400]
+PokerPalvo1499 posts ante [400]
+ihadafeeling posts ante [400]
+DiggErr555 posts ante [400]
+KatozaForAll posts ante [400]
+Achileus34 posts ante [400]
+Corlusion posts ante [400]
+Alex0876 posts ante [400]
+ChickAndChipS posts ante [400]
+Achileus34 posts small blind [1,200].
+Corlusion posts big blind [2,400].
+** Dealing down cards **
+Dealt to DiggErr555 [  Th Kh ]
+Alex0876 folds
+ChickAndChipS folds
+DiSTEFANO_ folds
+PokerPalvo1499 raises [5,280]
+ihadafeeling folds
+DiggErr555 will be using their time bank for this hand.
+DiggErr555 is all-In  [53,328]
+KatozaForAll folds
+Achileus34 folds
+Corlusion is all-In  [202,281]
+PokerPalvo1499 folds
+** Dealing Flop ** [ Qd, Td, 7s ]
+** Dealing Turn ** [ 6d ]
+** Dealing River ** [ 6s ]
+Corlusion shows [ Jc, Jh ]two pairs, Jacks and Sixes.
+DiggErr555 shows [ Th, Kh ]two pairs, Tens and Sixes.
+Corlusion wins 151,353 chips from the side pot 1 with two pairs, Jacks and Sixes.
+Corlusion wins 116,736 chips from the main pot with two pairs, Jacks and Sixes.
+Player DiggErr555 finished in 840.

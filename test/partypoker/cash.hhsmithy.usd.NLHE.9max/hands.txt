@@ -1,0 +1,191 @@
+***** Hand History for Game 198554437 *****
+$0.10/$0.25 USD NL Texas Hold'em - Tuesday, June 19, 23:00:41 EDT 2018
+Table Clifton (Real Money)
+Seat 2 is the button
+Total number of players : 7/9
+Seat 2: Chinchilakid ( $28.45 USD )
+Seat 4: JohnPat30 ( $28.63 USD )
+Seat 6: SEOULMAN ( $19.52 USD )
+Seat 3: angrydad4999 ( $35.79 USD )
+Seat 7: marviher ( $9.07 USD )
+Seat 1: slushfund18 ( $25 USD )
+Seat 5: worley ( $17.94 USD )
+angrydad4999 posts small blind [$0.10 USD].
+JohnPat30 posts big blind [$0.25 USD].
+slushfund18 posts big blind [$0.25 USD].
+** Dealing down cards **
+worley calls [$0.25 USD]
+SEOULMAN raises [$0.50 USD]
+marviher raises [$0.85 USD]
+slushfund18 calls [$0.60 USD]
+Chinchilakid folds
+ProfessorH has joined the table.
+angrydad4999 calls [$0.75 USD]
+JohnPat30 folds
+worley calls [$0.60 USD]
+SEOULMAN calls [$0.35 USD]
+** Dealing Flop ** [ 4c, 3s, 7c ]
+angrydad4999 checks
+worley checks
+SEOULMAN checks
+marviher checks
+slushfund18 bets [$0.75 USD]
+angrydad4999 folds
+worley calls [$0.75 USD]
+SEOULMAN calls [$0.75 USD]
+marviher calls [$0.75 USD]
+** Dealing Turn ** [ 2s ]
+worley checks
+SEOULMAN checks
+marviher checks
+slushfund18 checks
+** Dealing River ** [ Qs ]
+worley checks
+SEOULMAN checks
+marviher bets [$7.09 USD]
+slushfund18 folds
+worley folds
+SEOULMAN folds
+marviher does not show cards.
+marviher wins $14.18 USD
+
+
+***** Hand History for Game 198554571 *****
+$0.10/$0.25 USD NL Texas Hold'em - Tuesday, June 19, 23:02:26 EDT 2018
+Table Clifton (Real Money)
+Seat 3 is the button
+Total number of players : 8/9
+Seat 2: Chinchilakid ( $28.45 USD )
+Seat 4: JohnPat30 ( $28.38 USD )
+Seat 8: ProfessorH ( $25 USD )
+Seat 6: SEOULMAN ( $17.92 USD )
+Seat 3: angrydad4999 ( $34.94 USD )
+Seat 7: marviher ( $14.56 USD )
+Seat 1: slushfund18 ( $23.40 USD )
+Seat 5: worley ( $16.34 USD )
+JohnPat30 posts small blind [$0.10 USD].
+worley posts big blind [$0.25 USD].
+ProfessorH posts big blind [$0.25 USD].
+** Dealing down cards **
+SEOULMAN folds
+marviher raises [$1.10 USD]
+ProfessorH folds
+slushfund18 folds
+Chinchilakid folds
+angrydad4999 folds
+JohnPat30 folds
+worley folds
+marviher does not show cards.
+marviher wins $1.70 USD
+
+
+***** Hand History for Game 198555531 *****
+$0.10/$0.25 USD NL Texas Hold'em - Tuesday, June 19, 23:11:43 EDT 2018
+Table Clifton (Real Money)
+Seat 3 is the button
+Total number of players : 9/9
+Seat 2: Chinchilakid ( $26.29 USD )
+Seat 4: JohnPat30 ( $28.28 USD )
+Seat 6: SEOULMAN ( $18.77 USD )
+Seat 3: angrydad4999 ( $41.35 USD )
+Seat 9: kakapee123 ( $13.13 USD )
+Seat 8: lilfay ( $25 USD )
+Seat 7: marviher ( $14.50 USD )
+Seat 1: slushfund18 ( $20.63 USD )
+Seat 5: worley ( $14.59 USD )
+SEOULMAN posts small blind [$0.10 USD].
+marviher posts big blind [$0.25 USD].
+** Dealing down cards **
+JohnPat30 has left the table.
+kakapee123 folds
+slushfund18 folds
+Chinchilakid folds
+angrydad4999 raises [$0.75 USD]
+SEOULMAN folds
+marviher folds
+angrydad4999 does not show cards.
+angrydad4999 wins $1.10 USD
+
+
+***** Hand History for Game 198555577 *****
+$0.10/$0.25 USD NL Texas Hold'em - Tuesday, June 19, 23:12:15 EDT 2018
+Table Clifton (Real Money)
+Seat 6 is the button
+Total number of players : 8/9
+Seat 2: Chinchilakid ( $26.29 USD )
+Seat 6: SEOULMAN ( $18.67 USD )
+Seat 3: angrydad4999 ( $41.70 USD )
+Seat 9: kakapee123 ( $13.13 USD )
+Seat 8: lilfay ( $25 USD )
+Seat 7: marviher ( $14.25 USD )
+Seat 1: slushfund18 ( $20.63 USD )
+Seat 5: worley ( $14.59 USD )
+marviher posts small blind [$0.10 USD].
+lilfay posts big blind [$0.25 USD].
+worley posts big blind + dead [$0.35].
+** Dealing down cards **
+kakapee123 did not respond in time
+kakapee123 folds
+slushfund18 calls [$0.25 USD]
+Chinchilakid calls [$0.25 USD]
+angrydad4999 folds
+worley checks
+SEOULMAN raises [$1 USD]
+marviher folds
+lilfay folds
+slushfund18 calls [$0.75 USD]
+Chinchilakid folds
+worley folds
+** Dealing Flop ** [ 2c, 4h, Qs ]
+slushfund18 bets [$0.25 USD]
+SEOULMAN calls [$0.25 USD]
+** Dealing Turn ** [ 7h ]
+slushfund18 bets [$1.50 USD]
+SEOULMAN raises [$4 USD]
+slushfund18 calls [$2.50 USD]
+** Dealing River ** [ 4s ]
+slushfund18 bets [$3 USD]
+SEOULMAN calls [$3 USD]
+slushfund18 shows [ Qd, Ac ]two pairs, Queens and Fours.
+SEOULMAN shows [ Ad, Qh ]two pairs, Queens and Fours.
+slushfund18 wins $8.25 USD from the main pot with two pairs, Queens and Fours.
+SEOULMAN wins $8.24 USD from the main pot with two pairs, Queens and Fours.
+
+***** Hand History for Game 198563653 *****
+$0.10/$0.25 USD NL Texas Hold'em - Wednesday, June 20, 01:34:15 EDT 2018
+Table Clifton (Real Money)
+Seat 3 is the button
+Total number of players : 9/9
+Seat 3: Bub242 ( $44.15 USD )
+Seat 5: DJHOOKS ( $27.13 USD )
+Seat 7: DirtyJerzey ( $17.85 USD )
+Seat 2: Fatwhite26 ( $34.12 USD )
+Seat 6: Kahstonezz ( $15.68 USD )
+Seat 1: Kellymf1989 ( $17.16 USD )
+Seat 9: MusicGuru ( $15 USD )
+Seat 8: dmehmet ( $25.58 USD )
+Seat 4: missmoose ( $14.76 USD )
+missmoose posts small blind [$0.10 USD].
+DJHOOKS is sitting out
+Kahstonezz posts big blind [$0.25 USD].
+** Dealing down cards **
+DirtyJerzey folds
+dmehmet raises [$1 USD]
+Kellymf1989 folds
+Fatwhite26 folds
+Bub242 folds
+missmoose folds
+Kahstonezz raises [$1.50 USD]
+dmehmet calls [$0.75 USD]
+** Dealing Flop ** [ Jd, Kh, 3d ]
+Kahstonezz checks
+dmehmet checks
+** Dealing Turn ** [ Ac ]
+Kahstonezz checks
+dmehmet checks
+** Dealing River ** [ 7d ]
+Kahstonezz bets [$3.75 USD]
+dmehmet calls [$3.75 USD]
+Kahstonezz shows [ 7c, Ah ]two pairs, Aces and Sevens.
+dmehmet doesn't show [ Qd, Qs ]a pair of Queens.
+Kahstonezz wins $10.49 USD from the main pot with two pairs, Aces and Sevens.

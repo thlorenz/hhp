@@ -1,0 +1,111 @@
+***** Hand History for Game 199382378 *****
+$0.50/$1 USD NL Texas Hold'em - Wednesday, July 04, 23:18:02 EDT 2018
+Table Union (Real Money)
+Seat 1 is the button
+Total number of players : 2/2
+Seat 2: CopyYou ( $100.40 USD )
+Seat 1: j.perilli7 ( $51.78 USD )
+j.perilli7 posts small blind [$0.50 USD].
+CopyYou posts big blind [$1 USD].
+** Dealing down cards **
+j.perilli7 calls [$0.50 USD]
+CopyYou raises [$2 USD]
+j.perilli7 folds
+CopyYou does not show cards.
+CopyYou wins $4 USD
+
+
+***** Hand History for Game 199382461 *****
+$0.50/$1 USD NL Texas Hold'em - Wednesday, July 04, 23:19:02 EDT 2018
+Table Union (Real Money)
+Seat 1 is the button
+Total number of players : 2/2
+Seat 2: CopyYou ( $97.90 USD )
+Seat 1: j.perilli7 ( $53.84 USD )
+j.perilli7 posts small blind [$0.50 USD].
+CopyYou posts big blind [$1 USD].
+** Dealing down cards **
+j.perilli7 calls [$0.50 USD]
+CopyYou raises [$2 USD]
+j.perilli7 calls [$2 USD]
+** Dealing Flop ** [ 5h, Tc, 3s ]
+CopyYou bets [$4.25 USD]
+j.perilli7 folds
+CopyYou does not show cards.
+CopyYou wins $9.92 USD
+
+
+***** Hand History for Game 199382505 *****
+$0.50/$1 USD NL Texas Hold'em - Wednesday, July 04, 23:19:38 EDT 2018
+Table Union (Real Money)
+Seat 1 is the button
+Total number of players : 2/2
+Seat 2: CopyYou ( $102.35 USD )
+Seat 1: j.perilli7 ( $48.84 USD )
+j.perilli7 posts small blind [$0.50 USD].
+CopyYou posts big blind [$1 USD].
+** Dealing down cards **
+j.perilli7 calls [$0.50 USD]
+CopyYou checks
+** Dealing Flop ** [ Jd, Ad, 6d ]
+CopyYou checks
+j.perilli7 checks
+** Dealing Turn ** [ Td ]
+CopyYou checks
+j.perilli7 checks
+** Dealing River ** [ 6h ]
+CopyYou checks
+j.perilli7 checks
+CopyYou shows [ 5s, 8c ]a pair of Sixes.
+j.perilli7 shows [ 4s, 5h ]a pair of Sixes.
+j.perilli7 wins $0.94 USD from the main pot with a pair of Sixes.
+CopyYou wins $0.95 USD from the main pot with a pair of Sixes.
+
+***** Hand History for Game 199382553 *****
+$0.50/$1 USD NL Texas Hold'em - Wednesday, July 04, 23:20:20 EDT 2018
+Table Union (Real Money)
+Seat 1 is the button
+Total number of players : 2/2
+Seat 2: CopyYou ( $103.47 USD )
+Seat 1: j.perilli7 ( $47.28 USD )
+j.perilli7 posts small blind [$0.50 USD].
+CopyYou posts big blind [$1 USD].
+** Dealing down cards **
+j.perilli7 calls [$0.50 USD]
+CopyYou checks
+** Dealing Flop ** [ 2c, 3c, Tc ]
+CopyYou checks
+j.perilli7 checks
+** Dealing Turn ** [ Qd ]
+CopyYou checks
+j.perilli7 bets [$1.89 USD]
+CopyYou calls [$1.89 USD]
+** Dealing River ** [ Kh ]
+CopyYou checks
+j.perilli7 bets [$2.73 USD]
+CopyYou folds
+j.perilli7 does not show cards.
+j.perilli7 wins $8.19 USD
+
+
+***** Hand History for Game 199382575 *****
+$0.50/$1 USD NL Texas Hold'em - Wednesday, July 04, 23:20:42 EDT 2018
+Table Union (Real Money)
+Seat 2 is the button
+Total number of players : 2/2
+Seat 2: CopyYou ( $100.58 USD )
+Seat 1: j.perilli7 ( $49.85 USD )
+CopyYou posts small blind [$0.50 USD].
+j.perilli7 posts big blind [$1 USD].
+** Dealing down cards **
+CopyYou raises [$2.50 USD]
+j.perilli7 raises [$9 USD]
+CopyYou is all-In  [$97.58 USD]
+j.perilli7 is all-In  [$39.85 USD]
+** Dealing Flop ** [ Jh, Ac, Jd ]
+** Dealing Turn ** [ 8d ]
+** Dealing River ** [ Ks ]
+j.perilli7 shows [ 9s, As ]two pairs, Aces and Jacks.
+CopyYou shows [ 7h, 7c ]two pairs, Jacks and Sevens.
+CopyYou wins $50.73 USD from the side pot 1 with two pairs, Jacks and Sevens.
+j.perilli7 wins $99.20 USD from the main pot with two pairs, Aces and Jacks.

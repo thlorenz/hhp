@@ -4,17 +4,21 @@
   "description": "Poker HandHistory Parser",
   "main": "hhp.js",
   "scripts": {
-    "test": "tape test/**/*.js",
+    "test": "tape test/{**/*,**/**/*}.js",
     "test-ps": "tape test/pokerstars/*.js",
-    "test-ig": "tape test/ignition/*.js"
+    "test-ig": "tape test/ignition/*.js",
+    "test-pp": "tape test/partypoker/**/*.js"
   },
   "repository": {
     "type": "git",
     "url": "git://github.com/thlorenz/hhp.git"
   },
   "homepage": "https://github.com/thlorenz/hhp",
-  "dependencies": {},
+  "dependencies": {
+    "ntz": "~0.1.2"
+  },
   "devDependencies": {
+    "glob": "~7.1.2",
     "ocat": "~0.2.1",
     "spok": "~0.9.1",
     "tape": "~4.4.0"

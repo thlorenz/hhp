@@ -5,6 +5,7 @@ const stringUtil = require('./lib/util/string')
 /* eslint-disable camelcase */
 const holdem_ps = require('./lib/holdem/pokerstars')
 const holdem_ig = require('./lib/holdem/ignition')
+const holdem_pp = require('./lib/holdem/partypoker')
 
 function getLines(txt) {
   const trimmed = txt.split('\n').map(stringUtil.trimLine)
@@ -37,6 +38,7 @@ function parseHand(input, opts) {
   const lines = Array.isArray(input) ? input : getLines(input).filter(stringUtil.emptyLine)
   if (holdem_ps.canParse(lines)) return holdem_ps.parse(lines, opts)
   if (holdem_ig.canParse(lines)) return holdem_ig.parse(lines, opts)
+  if (holdem_pp.canParse(lines)) return holdem_pp.parse(lines, opts)
 }
 
 /**
@@ -58,11 +60,11 @@ function extractHands(txt) {
     const line = lines[i]
     if (line.length) {
       hand.push(line)
-      // last hand that's not followed by empty line
-      if (i === lines.length - 1 && hand.length) hands.push(hand)
+      // last hand that's not followed by empty line and has enough lines to constitute a hand
+      if (i === lines.length - 1 && hand.length > 3) hands.push(hand)
     } else {
-      // hand finished
-      if (hand.length) hands.push(hand)
+      // hand finished and has minimum amount of lines to constitute a hand
+      if (hand.length > 3) hands.push(hand)
       hand = []
       while (i < lines.length && lines[i] && !lines[i].length) i++  // find start of next line
     }
@@ -74,18 +76,20 @@ function parseHands(txt, opts) {
   const hands = extractHands(txt)
   const parsedHands = []
   const errors = []
+  const count = hands.length
   for (var i = 0; i < hands.length; i++) {
     try {
       const parsedHand = parseHand(hands[i], opts)
       if (parsedHand == null) {
-        throw new Error(`Parsing hand with id ${hands[i].info.handid} returned null`)
+        const handid = hands[i] != null && hands[i].info != null && hands[i].info.handid
+        throw new Error(`Parsing hand at index ${i} with id ${handid} returned null`)
       }
       parsedHands.push(parsedHand)
     } catch (err) {
-      errors.push(err)
+      errors.push({ err, hand: hands[i], index: i })
     }
   }
-  return { parsedHands, errors }
+  return { parsedHands, errors, count }
 }
 
 module.exports = {
