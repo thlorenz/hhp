@@ -2,7 +2,7 @@
 
 const test = require('tape')
 const spok = require('spok')
-const { parseHand } = require('../')
+const { parseHand } = require('../../')
 const opts = { infoOnly: true }
 
 test('\npokerstars: tournament info 2017', function(t) {

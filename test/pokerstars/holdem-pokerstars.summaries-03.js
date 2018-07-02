@@ -2,7 +2,7 @@
 
 const spok = require('spok')
 const test = require('tape')
-const create = require('../lib/holdem/pokerstars').create
+const create = require('../../lib/holdem/pokerstars').create
 
 test('\nsummary: cash single pot with rake, won, lost, folded with and without bets, mucked and a full board', function(t) {
   const lines = `

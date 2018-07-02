@@ -2,7 +2,7 @@
 
 const spok = require('spok')
 const test = require('tape')
-const create = require('../lib/holdem/pokerstars').create
+const create = require('../../lib/holdem/pokerstars').create
 
 test('\nshowdown: player finished without a place, collection from single pot', function(t) {
   const lines = `

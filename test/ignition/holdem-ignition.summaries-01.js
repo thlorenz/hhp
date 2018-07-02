@@ -2,7 +2,7 @@
 
 const spok = require('spok')
 const test = require('tape')
-const create = require('../lib/holdem/ignition').create
+const create = require('../../lib/holdem/ignition').create
 
 test('\nIgnition summary: pot, board, winner, folders, one muck', function(t) {
   const lines = `

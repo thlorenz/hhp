@@ -2,14 +2,14 @@
 
 const test = require('tape')
 const spok = require('spok')
-const spokUtl = require('./util/spok')
+const spokUtl = require('../util/spok')
 const clean = spokUtl.clean
 const topic = spokUtl.topic
-const { parseHand } = require('../')
+const { parseHand } = require('../../')
 
 const fs = require('fs')
 const path = require('path')
-const fixtures = path.join(__dirname, 'fixtures')
+const fixtures = path.join(__dirname, '..', 'fixtures')
 /* eslint-disable camelcase */
 const holdem_ps = path.join(fixtures, 'holdem', 'pokerstars')
 
