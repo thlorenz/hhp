@@ -153,8 +153,8 @@ test(`${ROOM}: ${GAME} - ${PART}`, function(t) {
         , type: 'fold'
         , metadata: { lineno: 33, raw: 'ihadafeeling folds' } }
       , { player: 'DiggErr555'
-        , type: 'bet'
-        , amount: 53328
+        , type: 'raise'
+        , raiseTo: 53328
         , allin: true
         , metadata: { lineno: 35, raw: 'DiggErr555 is all-In  [53,328]' } }
       , { player: 'KatozaForAll'
@@ -164,8 +164,8 @@ test(`${ROOM}: ${GAME} - ${PART}`, function(t) {
         , type: 'fold'
         , metadata: { lineno: 37, raw: 'Achileus34 folds' } }
       , { player: 'Corlusion'
-        , type: 'bet'
-        , amount: 202281
+        , type: 'raise'
+        , raiseTo: 202281
         , allin: true
         , metadata: { lineno: 38, raw: 'Corlusion is all-In  [202,281]' } }
       , { player: 'PokerPalvo1499'
