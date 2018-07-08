@@ -1,0 +1,85 @@
+#Game No : 503663069
+***** 888poker Hand History for Game 503663069 *****
+$0.06/$0.12 Blinds Fix Limit Holdem - *** 17 06 2018 20:28:21
+Table Embu 10 Max (Real Money)
+Seat 5 is the button
+Total number of players : 2
+Seat 5: uyangau ( $4.80 )
+Seat 7: Chillwill184 ( $1.25 )
+uyangau posts small blind [$0.06]
+Chillwill184 posts big blind [$0.12]
+** Dealing down cards **
+uyangau calls [$0.06]
+Chillwill184 checks
+** Dealing flop ** [ 7c, Tc, 7d ]
+Chillwill184 checks
+uyangau bets [$0.12]
+Chillwill184 calls [$0.12]
+** Dealing turn ** [ 2c ]
+Chillwill184 checks
+uyangau bets [$0.25]
+Chillwill184 calls [$0.25]
+** Dealing river ** [ Ts ]
+Chillwill184 checks
+uyangau checks
+** Summary **
+Chillwill184 shows [ Kh, 7h ]
+uyangau mucks [ 9c, 8s ]
+Chillwill184 collected [ $0.94 ]
+
+
+#Game No : 503663104
+***** 888poker Hand History for Game 503663104 *****
+$0.06/$0.12 Blinds Fix Limit Holdem - *** 17 06 2018 20:29:50
+Table Embu 10 Max (Real Money)
+Seat 7 is the button
+Total number of players : 2
+Seat 5: uyangau ( $4.31 )
+Seat 7: Chillwill184 ( $1.70 )
+Chillwill184 posts small blind [$0.06]
+uyangau posts big blind [$0.12]
+** Dealing down cards **
+Chillwill184 calls [$0.06]
+uyangau raises [$0.12]
+Chillwill184 calls [$0.12]
+** Dealing flop ** [ 2h, Ad, 5d ]
+uyangau bets [$0.12]
+Chillwill184 calls [$0.12]
+** Dealing turn ** [ Jc ]
+uyangau bets [$0.25]
+Chillwill184 calls [$0.25]
+** Dealing river ** [ Td ]
+uyangau checks
+Chillwill184 checks
+** Summary **
+uyangau shows [ Ac, 5s ]
+Chillwill184 mucks [ 9s, Ks ]
+uyangau collected [ $1.16 ]
+
+
+#Game No : 503663140
+***** 888poker Hand History for Game 503663140 *****
+$0.06/$0.12 Blinds Fix Limit Holdem - *** 17 06 2018 20:31:02
+Table Embu 10 Max (Real Money)
+Seat 5 is the button
+Total number of players : 2
+Seat 5: uyangau ( $4.86 )
+Seat 7: Chillwill184 ( $1.09 )
+uyangau posts small blind [$0.06]
+Chillwill184 posts big blind [$0.12]
+** Dealing down cards **
+uyangau calls [$0.06]
+Chillwill184 checks
+** Dealing flop ** [ Ah, 4d, 6d ]
+Chillwill184 checks
+uyangau checks
+** Dealing turn ** [ As ]
+Chillwill184 checks
+uyangau checks
+** Dealing river ** [ 7h ]
+Chillwill184 checks
+uyangau checks
+** Summary **
+Chillwill184 shows [ 9d, 3h ]
+uyangau shows [ 2s, Jc ]
+uyangau collected [ $0.23 ]

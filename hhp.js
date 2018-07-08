@@ -6,6 +6,7 @@ const stringUtil = require('./lib/util/string')
 const holdem_ps = require('./lib/holdem/pokerstars')
 const holdem_ig = require('./lib/holdem/ignition')
 const holdem_pp = require('./lib/holdem/partypoker')
+const holdem_pc = require('./lib/holdem/pacific')
 
 function getLines(txt) {
   const trimmed = txt.split('\n').map(stringUtil.trimLine)
@@ -39,6 +40,7 @@ function parseHand(input, opts) {
   if (holdem_ps.canParse(lines)) return holdem_ps.parse(lines, opts)
   if (holdem_ig.canParse(lines)) return holdem_ig.parse(lines, opts)
   if (holdem_pp.canParse(lines)) return holdem_pp.parse(lines, opts)
+  if (holdem_pc.canParse(lines)) return holdem_pc.parse(lines, opts)
 }
 
 /**

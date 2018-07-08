@@ -1,0 +1,19 @@
+'use strict'
+
+const path = require('path')
+const ROOM = 'pacific'
+const GAME = __dirname.split('/').pop()
+const PART = parseInt(path.basename(__filename).split('-')[1])
+
+const test = require('tape')
+const processHand = require('../../util/process-hand')
+// eslint-disable-next-line no-unused-vars
+const ocat = require('ocat').applyRes5Opts()
+const spok = require('spok')
+
+test(`${ROOM}: ${GAME} - ${PART}`, function(t) {
+  const res = processHand(__dirname, PART)
+  ocat.log(res)
+
+  t.end()
+})

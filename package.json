@@ -7,7 +7,8 @@
     "test": "tape test/{**/*,**/**/*}.js",
     "test-ps": "tape test/pokerstars/*.js",
     "test-ig": "tape test/ignition/*.js",
-    "test-pp": "tape test/partypoker/**/*.js"
+    "test-pp": "tape test/partypoker/**/*.js",
+    "test-pc": "tape test/pacific/**/*.js"
   },
   "repository": {
     "type": "git",

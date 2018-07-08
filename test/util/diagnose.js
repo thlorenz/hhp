@@ -14,6 +14,7 @@ function diagnose(handsTxt) {
       const ignored = x.ignored.map(x => `  ${x.lineno}: ${x.raw}`).join('\n')
       return `${x.info.handid}:\n${ignored}`
     })
+  if (ignoreds.length === 0) return
   console.log(ignoreds.join('\n'))
 }
 

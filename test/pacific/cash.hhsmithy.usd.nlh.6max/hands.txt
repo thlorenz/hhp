@@ -1,0 +1,68 @@
+#Game No : 1186521350
+***** 888poker Hand History for Game 1186521350 *****
+$3/$6 Blinds No Limit Holdem - *** 21 06 2018 19:41:18
+Table Goiania 6 Max (Real Money)
+Seat 4 is the button
+Total number of players : 4
+Seat 1: Kostan88 ( $600 )
+Seat 2: Born2Disco ( $826.51 )
+Seat 4: Tercinho390 ( $360 )
+Seat 9: SigmFreud ( $600 )
+SigmFreud posts small blind [$3]
+Kostan88 posts big blind [$6]
+** Dealing down cards **
+Born2Disco folds
+Tercinho390 calls [$6]
+SigmFreud folds
+Kostan88 checks
+** Dealing flop ** [ Qc, 6h, 5h ]
+Kostan88 bets [$7.50]
+Tercinho390 folds
+** Summary **
+Kostan88 collected [ $14.25 ]
+
+
+#Game No : 1186521416
+***** 888poker Hand History for Game 1186521416 *****
+$3/$6 Blinds No Limit Holdem - *** 21 06 2018 19:41:46
+Table Goiania 6 Max (Real Money)
+Seat 9 is the button
+Total number of players : 4
+Seat 1: Kostan88 ( $608.25 )
+Seat 2: Born2Disco ( $826.51 )
+Seat 4: Tercinho390 ( $354 )
+Seat 9: SigmFreud ( $600 )
+Kostan88 posts small blind [$3]
+Born2Disco posts big blind [$6]
+** Dealing down cards **
+Tercinho390 calls [$6]
+SigmFreud calls [$6]
+Kostan88 calls [$3]
+Born2Disco checks
+** Dealing flop ** [ 8h, Kd, 4c ]
+Kostan88 checks
+Born2Disco checks
+Tercinho390 checks
+SigmFreud bets [$8]
+Kostan88 folds
+Born2Disco folds
+Tercinho390 folds
+** Summary **
+SigmFreud collected [ $22.80 ]
+
+#Game No : 1186521899
+***** 888poker Hand History for Game 1186521899 *****
+$3/$6 Blinds No Limit Holdem - *** 21 06 2018 19:45:05
+Table Goiania 6 Max (Real Money)
+Seat 9 is the button
+Total number of players : 3
+Seat 2: Born2Disco ( $811.51 )
+Seat 6: xFlake ( $973.07 )
+Seat 9: SigmFreud ( $621 )
+Born2Disco posts small blind [$3]
+** Dealing down cards **
+xFlake folds
+SigmFreud folds
+** Summary **
+Born2Disco did not show his hand
+Born2Disco collected [ $3 ]

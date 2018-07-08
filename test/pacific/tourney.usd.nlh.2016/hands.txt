@@ -1,0 +1,32 @@
+***** 888poker Hand History for Game 655462938 *****
+$100/$200 Blinds No Limit Holdem - *** 08 08 2016 23:03:27
+Tournament #83728678 $18.30 + $1.70 - Table #1 9 Max (Real Money)
+Seat 5 is the button
+Total number of players : 5
+Seat 1: Mr.Tatt00 ( $3,548 )
+Seat 5: bilguun0226 ( $1,614 )
+Seat 7: DiggErr555 ( $4,886 )
+Seat 9: MatjeP ( $1,058 )
+Seat 10: CerealRobber ( $2,394 )
+Mr.Tatt00 posts ante [$20]
+CerealRobber posts ante [$20]
+MatjeP posts ante [$20]
+bilguun0226 posts ante [$20]
+DiggErr555 posts ante [$20]
+DiggErr555 posts small blind [$100]
+MatjeP posts big blind [$200]
+** Dealing down cards **
+Dealt to DiggErr555 [ 8c, Qs ]
+CerealRobber raises [$400]
+Mr.Tatt00 folds
+bilguun0226 raises [$1,594]
+DiggErr555 folds
+MatjeP calls [$838]
+CerealRobber folds
+** Dealing flop ** [ 6d, 7s, Kd ]
+** Dealing turn ** [ 5c ]
+** Dealing river ** [ 8d ]
+** Summary **
+bilguun0226 shows [ Qd, Js ]
+MatjeP shows [ Ac, Ad ]
+MatjeP collected [ $2,676 ]

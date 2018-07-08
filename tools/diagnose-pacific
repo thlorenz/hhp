@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+
+const root = `${__dirname}/../data/pacific/`
+const { diagnoseRecursively } = require('../test/util/diagnose')
+
+diagnoseRecursively(root)

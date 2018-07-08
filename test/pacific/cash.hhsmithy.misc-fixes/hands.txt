@@ -1,0 +1,30 @@
+#Game No : 499222502
+***** 888poker Hand History for Game 499222502 *****
+$0.01/$0.02 Blinds No Limit Holdem - *** 01 07 2018 12:32:18
+Table Goiania 6 Max (Real Money)
+Seat 9 is the button
+Total number of players : 6
+Seat 1: ChesterJ28 ( $3.15 )
+Seat 2: Aprel16 ( $1.59 )
+Seat 4: RockyWarr777 ( $1.18 )
+Seat 6: KroyBogdan7 ( $1.19 )
+Seat 7: Flanx ( $0.67 )
+Seat 9: Filosov000 ( $0.35 )
+ChesterJ28 posts small blind [$0.01]
+Aprel16 folds
+RockyWarr777 posts big blind [$0.02]
+Flanx posts dead blind [$0.01 + $0.02]
+** Dealing down cards **
+KroyBogdan7 raises [$0.06]
+Flanx folds
+Filosov000 calls [$0.06]
+ChesterJ28 calls [$0.05]
+RockyWarr777 folds
+** Dealing flop ** [ 6c, Kh, 5s ]
+ChesterJ28 bets [$0.23]
+KroyBogdan7 folds
+Filosov000 folds
+** Summary **
+ChesterJ28 did not show his hand
+ChesterJ28 collected [ $0.22 ]
+
