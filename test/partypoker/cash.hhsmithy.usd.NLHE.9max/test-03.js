@@ -201,8 +201,7 @@ test(`${ROOM}: ${GAME} - ${PART}`, function(t) {
            { lineno: 42
            , raw:
               'SEOULMAN wins $8.24 USD from the main pot with two pairs, Queens and Fours.' } } ]
-    , ignored:
-      [ { lineno: 17, raw: 'kakapee123 did not respond in time' } ]
+    , ignored: []
     , board:
       { card1: '2c'
       , card2: '4h'

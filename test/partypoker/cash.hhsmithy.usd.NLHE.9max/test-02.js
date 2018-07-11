@@ -119,8 +119,6 @@ test(`${ROOM}: ${GAME} - ${PART}`, function(t) {
         , player: 'angrydad4999'
         , amount: 1.1
         , metadata: { lineno: 25, raw: 'angrydad4999 wins $1.10 USD' } } ]
-    , ignored:
-      [ { lineno: 17, raw: 'JohnPat30 has left the table.' }
-      , { lineno: 24, raw: 'angrydad4999 does not show cards.' } ] })
+    , ignored: [] })
   t.end()
 })

@@ -111,7 +111,7 @@ test(`${ROOM}: ${GAME} - ${PART}`, function(t) {
         , player: 'j.perilli7'
         , amount: 8.19
         , metadata: { lineno: 24, raw: 'j.perilli7 wins $8.19 USD' } } ]
-    , ignored: [ { lineno: 23, raw: 'j.perilli7 does not show cards.' } ]
+    , ignored: []
     , board:
       { card1: '2c'
       , card2: '3c'

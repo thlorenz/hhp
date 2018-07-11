@@ -100,7 +100,6 @@ test(`${ROOM}: ${GAME} - ${PART}`, function(t) {
         , metadata: { lineno: 21, raw: 'Player1 wins 90 chips' } } ]
     , ignored:
       [ { lineno: 0, raw: '#Game No : 15414973533' }
-      , { lineno: 20, raw: 'Player1 does not show cards.' }
       , { lineno: 22, raw: 'Game #15414973928 starts.' } ] })
   t.end()
 })

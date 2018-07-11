@@ -170,7 +170,7 @@ test(`${ROOM}: ${GAME} - ${PART}`, function(t) {
            { lineno: 37
            , raw:
               'Kahstonezz wins $10.49 USD from the main pot with two pairs, Aces and Sevens.' } } ]
-    , ignored: [ { lineno: 15, raw: 'DJHOOKS is sitting out' } ]
+    , ignored: []
     , board:
       { card1: 'Jd'
       , card2: 'Kh'

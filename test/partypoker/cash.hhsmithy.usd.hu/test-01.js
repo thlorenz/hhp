@@ -95,7 +95,7 @@ test(`${ROOM}: ${GAME} - ${PART}`, function(t) {
         , player: 'CopyYou'
         , amount: 9.92
         , metadata: { lineno: 17, raw: 'CopyYou wins $9.92 USD' } } ]
-    , ignored: [ { lineno: 16, raw: 'CopyYou does not show cards.' } ]
+    , ignored: []
     , board:
       { card1: '5h'
       , card2: 'Tc'

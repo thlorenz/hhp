@@ -206,9 +206,7 @@ test(`${ROOM}: ${GAME} - ${PART}`, function(t) {
            , raw:
               'Corlusion wins 116,736 chips from the main pot with two pairs, Jacks and Sixes.' } } ]
     , ignored:
-      [ { lineno: 34
-        , raw: 'DiggErr555 will be using their time bank for this hand.' }
-      , { lineno: 47, raw: 'Player DiggErr555 finished in 840.' } ]
+      [ { lineno: 47, raw: 'Player DiggErr555 finished in 840.' } ]
     , board:
       { card1: 'Qd'
       , card2: 'Td'

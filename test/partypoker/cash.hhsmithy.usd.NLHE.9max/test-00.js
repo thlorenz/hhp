@@ -205,9 +205,7 @@ test(`${ROOM}: ${GAME} - ${PART}`, function(t) {
         , player: 'marviher'
         , amount: 14.18
         , metadata: { lineno: 49, raw: 'marviher wins $14.18 USD' } } ]
-    , ignored:
-      [ { lineno: 21, raw: 'ProfessorH has joined the table.' }
-      , { lineno: 48, raw: 'marviher does not show cards.' } ]
+    , ignored: []
     , board:
       { card1: '4c'
       , card2: '3s'

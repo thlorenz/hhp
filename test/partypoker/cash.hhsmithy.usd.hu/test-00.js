@@ -85,6 +85,6 @@ test(`${ROOM}: ${GAME} - ${PART}`, function(t) {
         , player: 'CopyYou'
         , amount: 4
         , metadata: { lineno: 14, raw: 'CopyYou wins $4 USD' } } ]
-    , ignored: [ { lineno: 13, raw: 'CopyYou does not show cards.' } ] })
+    , ignored: [] })
   t.end()
 })
