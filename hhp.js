@@ -17,7 +17,6 @@ function getLines(txt) {
 /**
  * Parses PokerHand Histories as output by the given online Poker Rooms.
  * Autodetects the game type and the PokerRoom.
- * So far PokerStars Holdem hands are supported.
  *
  * The parsed hands can then be further analyzed with the
  * [hha](https://github.com/thlorenz/hha) module.
@@ -74,6 +73,14 @@ function extractHands(txt) {
   return hands
 }
 
+/**
+ * Parses multiple hands from a given text.
+ *
+ * @name parseHands
+ * @param {string} input the textual representation of the poker hands as written to the HandHistory folder
+ * @param {object=} opts various options, passed along to `parseHand`
+ * @return {object} parsed hands and errors encountered: `{ parsedHands: Array, errors: Array, count: Number }`
+ */
 function parseHands(txt, opts) {
   const hands = extractHands(txt)
   const parsedHands = []
