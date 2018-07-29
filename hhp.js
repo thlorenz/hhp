@@ -14,6 +14,10 @@ function getLines(txt) {
   return trimmed
 }
 
+function nonEmptyLines(input) {
+  return Array.isArray(input) ? input : getLines(input).filter(stringUtil.emptyLine)
+}
+
 /**
  * Parses PokerHand Histories as output by the given online Poker Rooms.
  * Autodetects the game type and the PokerRoom.
@@ -35,11 +39,29 @@ function getLines(txt) {
  * @return {object} representation of the given hand to be used as input for other tools like hha
  */
 function parseHand(input, opts) {
-  const lines = Array.isArray(input) ? input : getLines(input).filter(stringUtil.emptyLine)
+  const lines = nonEmptyLines(input)
   if (holdem_ps.canParse(lines)) return holdem_ps.parse(lines, opts)
   if (holdem_ig.canParse(lines)) return holdem_ig.parse(lines, opts)
   if (holdem_pp.canParse(lines)) return holdem_pp.parse(lines, opts)
   if (holdem_pc.canParse(lines)) return holdem_pc.parse(lines, opts)
+}
+
+/**
+ * Determines if any of the parsers can parse the passed hand(s).
+ *
+ * @name canParse
+ * @param {String} input to parse
+ * @returns {Boolean} `true` if it knows how to parse this text
+ */
+function canParse(input) {
+  const lines = nonEmptyLines(input)
+  if (lines == null || lines.length === 0) return false
+  return (
+       holdem_ps.canParse(lines)
+    || holdem_ig.canParse(lines)
+    || holdem_pp.canParse(lines)
+    || holdem_pc.canParse(lines)
+  )
 }
 
 /**
@@ -105,4 +127,5 @@ module.exports = {
     parseHand
   , parseHands
   , extractHands
+  , canParse
 }
