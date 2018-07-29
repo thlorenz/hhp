@@ -34,7 +34,7 @@ test(`${ROOM}: ${GAME} - ${PART}`, function(t) {
       , sb: 100
       , bb: 200
       , limit: 'nolimit'
-      , type: 'holdem'
+      , pokertype: 'holdem'
       , gametype: 'tournament'
       , gameno: 83728678
       , donation: 18.3

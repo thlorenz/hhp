@@ -27,7 +27,7 @@ test(`${ROOM}: ${GAME} - ${PART}`, function(t) {
       , currency: '$'
       , buyin: 1
       , limit: 'nolimit'
-      , type: 'holdem'
+      , pokertype: 'holdem'
       , year: 2016
       , month: 7
       , day: 24

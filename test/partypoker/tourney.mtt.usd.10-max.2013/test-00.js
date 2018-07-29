@@ -30,7 +30,7 @@ test(`${ROOM}: ${GAME} - ${PART}`, function(t) {
       , currency: '$'
       , buyin: 530
       , limit: 'nolimit'
-      , type: 'holdem'
+      , pokertype: 'holdem'
       , year: 2013
       , month: 7
       , day: spok.range(28, 29)

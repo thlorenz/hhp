@@ -33,7 +33,7 @@ test(`${ROOM}: ${GAME} - ${PART}`, function(t) {
       , sb: 0.06
       , bb: 0.12
       , limit: 'fixedlimit'
-      , type: 'holdem' }
+      , pokertype: 'holdem' }
     , table:
       { metadata:
          [ { lineno: 3, raw: 'Table Embu 10 Max (Real Money)' }

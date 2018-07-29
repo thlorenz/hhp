@@ -32,7 +32,7 @@ test(`${ROOM}: ${GAME} - ${PART}`, function(t) {
       , sb: 3
       , bb: 6
       , limit: 'nolimit'
-      , type: 'holdem'
+      , pokertype: 'holdem'
       , gametype: 'cash' }
     , table:
       { metadata:

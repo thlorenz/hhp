@@ -32,7 +32,7 @@ test(`${ROOM}: ${GAME} - ${PART} - fixes "dead blind" and "folds" before preflop
       , sb: 0.01
       , bb: 0.02
       , limit: 'nolimit'
-      , type: 'holdem'
+      , pokertype: 'holdem'
       , gametype: 'cash' }
     , table:
       { metadata:
