@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/thlorenz/hhp",
   "dependencies": {
-    "hhp-util": "~0.1.0"
+    "hhp-util": "~0.1.1"
   },
   "devDependencies": {
     "glob": "~7.1.2",

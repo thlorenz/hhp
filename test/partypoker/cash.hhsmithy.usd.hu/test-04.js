@@ -81,8 +81,7 @@ test(`${ROOM}: ${GAME} - ${PART}`, function(t) {
         , type: 'call'
         , amount: 39.85
         , allin: true
-        , metadata: { lineno: 13, raw: 'j.perilli7 is all-In  [$39.85 USD]' }
-        , action: 'call' } ]
+        , metadata: { lineno: 13, raw: 'j.perilli7 is all-In  [$39.85 USD]' } } ]
     , flop: []
     , turn: []
     , river: []
