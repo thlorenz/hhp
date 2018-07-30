@@ -1,6 +1,6 @@
 'use strict'
 
-const stringUtil = require('./lib/util/string')
+const stringUtil = require('hhp-util/string')
 
 /* eslint-disable camelcase */
 const holdem_ps = require('./lib/holdem/pokerstars')
