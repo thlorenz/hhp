@@ -195,6 +195,7 @@ test('\nIgnition: sng last hand headsup hero looses, also includes Ante and an A
       , min: 55
       , sec: 3
       , gametype: 'cashgame'
+      , fast: true
       , metadata:
          { lineno: 0
          , raw: 'Ignition Hand #3372762461  Zone Poker ID#875 HOLDEMZonePoker No Limit - 2016-10-16 13:55:35' }
