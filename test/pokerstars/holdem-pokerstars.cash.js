@@ -669,6 +669,7 @@ test('\nHoldem.PokerStars: playernames have parentheses', function(t) {
       , sec: 19
       , timezone: 'ET'
       , gametype: 'cashgame'
+      , fast: true
       , metadata:
          { lineno: 0
          , raw: 'PokerStars Zoom Hand #164151764888:  Hold\'em No Limit ($0.02/$0.05) - 2017/01/06 17:33:19 ET' } }
